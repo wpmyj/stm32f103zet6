@@ -1,0 +1,200 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000         ;/*********************** (C) COPYRIGHT 2010 Libraworks 
+                       *************************
+    2 00000000         ;* File Name : os_cpu_a.asm 
+    3 00000000         ;* Author  : Librae 
+    4 00000000         ;* Version  : V1.0
+    5 00000000         ;* Date   : 06/10/2010
+    6 00000000         ;* Description : ¦ÌCOS-II asm port for STM32
+    7 00000000         ;*******************************************************
+                       ************************/
+    8 00000000         
+    9 00000000         ;IMPORT  OSRunning               ; External references
+   10 00000000         ;IMPORT  OSPrioCur
+   11 00000000         ;IMPORT  OSPrioHighRdy
+   12 00000000         ;IMPORT  OSTCBCur
+   13 00000000         ;IMPORT  OSTCBHighRdy
+   14 00000000         ;IMPORT  OSIntNesting
+   15 00000000         ;IMPORT  OSIntExit  
+   16 00000000         ;IMPORT  OSTaskSwHook
+   17 00000000         
+   18 00000000         ;EXPORT  OSStartHighRdy               
+   19 00000000         ; EXPORT  OSCtxSw
+   20 00000000         ; EXPORT  OSIntCtxSw  
+   21 00000000                 EXPORT           OS_CPU_SR_Save ; Functions decl
+                                                            ared in this file
+   22 00000000                 EXPORT           OS_CPU_SR_Restore
+   23 00000000         ; EXPORT  PendSV_Handler
+   24 00000000         
+   25 00000000         
+   26 00000000 E000ED04 
+                       NVIC_INT_CTRL
+                               EQU              0xE000ED04  ; ÖÐ¶Ï¿ØÖÆ¼Ä´æÆ÷
+   27 00000000 E000ED20 
+                       NVIC_SYSPRI2
+                               EQU              0xE000ED20  ; ÏµÍ³ÓÅÏÈ¼¶¼Ä´æÆ÷(
+                                                            2)
+   28 00000000 FFFF0000 
+                       NVIC_PENDSV_PRI
+                               EQU              0xFFFF0000  ; PendSVÖÐ¶ÏºÍÏµÍ³½
+                                                            ÚÅÄÖÐ¶Ï
+   29 00000000         ; (¶¼Îª×îµÍ£¬0xff).
+   30 00000000 10000000 
+                       NVIC_PENDSVSET
+                               EQU              0x10000000  ; ´¥·¢Èí¼þÖÐ¶ÏµÄÖµ.
+                                                            
+   31 00000000         
+   32 00000000         
+   33 00000000                 PRESERVE8
+   34 00000000         
+   35 00000000                 AREA             |.text|, CODE, READONLY
+   36 00000000                 THUMB
+   37 00000000         
+   38 00000000         
+   39 00000000         
+   40 00000000         ;*******************************************************
+                       *************************************************
+   41 00000000         ;                                   CRITICAL SECTION MET
+                       HOD 3 FUNCTIONS
+   42 00000000         ;
+   43 00000000         ; Description: Disable/Enable interrupts by preserving t
+
+
+
+ARM Macro Assembler    Page 2 
+
+
+                       he state of interrupts.  Generally speaking you
+   44 00000000         ;              would store the state of the interrupt di
+                       sable flag in the local variable 'cpu_sr' and then
+   45 00000000         ;              disable interrupts.  'cpu_sr' is allocate
+                       d in all of uC/OS-II's functions that need to
+   46 00000000         ;              disable interrupts.  You would restore th
+                       e interrupt disable state by copying back 'cpu_sr'
+   47 00000000         ;              into the CPU's status register.
+   48 00000000         ;
+   49 00000000         ; Prototypes :     OS_CPU_SR  OS_CPU_SR_Save(void);
+   50 00000000         ;                  void       OS_CPU_SR_Restore(OS_CPU_S
+                       R cpu_sr);
+   51 00000000         ;
+   52 00000000         ;
+   53 00000000         ; Note(s)    : 1) These functions are used in general li
+                       ke this:
+   54 00000000         ;
+   55 00000000         ;                 void Task (void *p_arg)
+   56 00000000         ;                 {
+   57 00000000         ;                 #if OS_CRITICAL_METHOD == 3          /
+                       * Allocate storage for CPU status register */
+   58 00000000         ;                     OS_CPU_SR  cpu_sr;
+   59 00000000         ;                 #endif
+   60 00000000         ;
+   61 00000000         ;                          :
+   62 00000000         ;                          :
+   63 00000000         ;                     OS_ENTER_CRITICAL();             /
+                       * cpu_sr = OS_CPU_SaveSR();                */
+   64 00000000         ;                          :
+   65 00000000         ;                          :
+   66 00000000         ;                     OS_EXIT_CRITICAL();              /
+                       * OS_CPU_RestoreSR(cpu_sr);                */
+   67 00000000         ;                          :
+   68 00000000         ;                          :
+   69 00000000         ;                 }
+   70 00000000         ;*******************************************************
+                       *************************************************
+   71 00000000         
+   72 00000000         OS_CPU_SR_Save
+   73 00000000 F3EF 8010       MRS              R0, PRIMASK ;¶ÁÈ¡PRIMASKµ½R0,R0
+                                                            Îª·µ»ØÖµ 
+   74 00000004 B672            CPSID            I           ;PRIMASK=1,¹ØÖÐ¶Ï(N
+                                                            MIºÍÓ²¼þFAULT¿ÉÒÔÏì
+                                                            Ó¦)
+   75 00000006 4770            BX               LR          ;·µ»Ø
+   76 00000008         
+   77 00000008         OS_CPU_SR_Restore
+   78 00000008 F380 8810       MSR              PRIMASK, R0 ;¶ÁÈ¡R0µ½PRIMASKÖÐ,
+                                                            R0Îª²ÎÊý
+   79 0000000C 4770            BX               LR          ;·µ»Ø
+   80 0000000E         
+   81 0000000E         
+   82 0000000E         
+   83 0000000E                 end
+Command Line: --debug --xref --cpu=Cortex-M3 --apcs=interwork --depend=.\obj\os
+_cpu_a.d -o.\obj\os_cpu_a.o -Id:\Keil\ARM\RV31\INC -Id:\Keil\ARM\CMSIS\Include 
+-Id:\Keil\ARM\Inc\ST\STM32F10x --predefine="__EVAL SETA 1" --list=.\os_cpu_a.ls
+t ucos_ii\PORT\os_cpu_a.asm
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+.text 00000000
+
+Symbol: .text
+   Definitions
+      At line 35 in file ucos_ii\PORT\os_cpu_a.asm
+   Uses
+      None
+Comment: .text unused
+OS_CPU_SR_Restore 00000008
+
+Symbol: OS_CPU_SR_Restore
+   Definitions
+      At line 77 in file ucos_ii\PORT\os_cpu_a.asm
+   Uses
+      At line 22 in file ucos_ii\PORT\os_cpu_a.asm
+Comment: OS_CPU_SR_Restore used once
+OS_CPU_SR_Save 00000000
+
+Symbol: OS_CPU_SR_Save
+   Definitions
+      At line 72 in file ucos_ii\PORT\os_cpu_a.asm
+   Uses
+      At line 21 in file ucos_ii\PORT\os_cpu_a.asm
+Comment: OS_CPU_SR_Save used once
+3 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Absolute symbols
+
+NVIC_INT_CTRL E000ED04
+
+Symbol: NVIC_INT_CTRL
+   Definitions
+      At line 26 in file ucos_ii\PORT\os_cpu_a.asm
+   Uses
+      None
+Comment: NVIC_INT_CTRL unused
+NVIC_PENDSVSET 10000000
+
+Symbol: NVIC_PENDSVSET
+   Definitions
+      At line 30 in file ucos_ii\PORT\os_cpu_a.asm
+   Uses
+      None
+Comment: NVIC_PENDSVSET unused
+NVIC_PENDSV_PRI FFFF0000
+
+Symbol: NVIC_PENDSV_PRI
+   Definitions
+      At line 28 in file ucos_ii\PORT\os_cpu_a.asm
+   Uses
+      None
+Comment: NVIC_PENDSV_PRI unused
+NVIC_SYSPRI2 E000ED20
+
+Symbol: NVIC_SYSPRI2
+   Definitions
+      At line 27 in file ucos_ii\PORT\os_cpu_a.asm
+   Uses
+      None
+Comment: NVIC_SYSPRI2 unused
+4 symbols
+338 symbols in table

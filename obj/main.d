@@ -1,0 +1,20 @@
+.\obj\main.o: app\main.c
+.\obj\main.o: .\driver\DriverSystick.h
+.\obj\main.o: .\STM32F10x_FWLib\src\stm32f10x_systick.h
+.\obj\main.o: .\config\testconfig.h
+.\obj\main.o: .\STM32F10x_FWLib\inc\misc.h
+.\obj\main.o: .\CM3\stm32f10x.h
+.\obj\main.o: .\CM3\core_cm3.h
+.\obj\main.o: C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h
+.\obj\main.o: .\CM3\system_stm32f10x.h
+.\obj\main.o: .\system\stm32f10x_conf.h
+.\obj\main.o: .\STM32F10x_FWLib\inc\stm32f10x_rcc.h
+.\obj\main.o: .\CM3\stm32f10x.h
+.\obj\main.o: .\OS32\OS003_CPU.h
+.\obj\main.o: .\OS32\OSType.h
+.\obj\main.o: .\app\monitoring.h
+.\obj\main.o: app\DA7545.h
+.\obj\main.o: .\driver\DriverUsart4.h
+.\obj\main.o: .\STM32F10x_FWLib\inc\stm32f10x_usart.h
+.\obj\main.o: .\driver\PGA204.h
+.\obj\main.o: .\STM32F10x_FWLib\inc\stm32f10x_gpio.h

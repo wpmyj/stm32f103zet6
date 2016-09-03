@@ -1,0 +1,19 @@
+.\obj\driverextline.o: driver\DriverEXTLine.c
+.\obj\driverextline.o: driver\DriverEXTLine.h
+.\obj\driverextline.o: .\CM3\stm32f10x.h
+.\obj\driverextline.o: .\CM3\core_cm3.h
+.\obj\driverextline.o: C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h
+.\obj\driverextline.o: .\CM3\system_stm32f10x.h
+.\obj\driverextline.o: .\system\stm32f10x_conf.h
+.\obj\driverextline.o: .\STM32F10x_FWLib\inc\stm32f10x_rcc.h
+.\obj\driverextline.o: .\config\testconfig.h
+.\obj\driverextline.o: .\CM3\stm32f10x.h
+.\obj\driverextline.o: .\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+.\obj\driverextline.o: .\STM32F10x_FWLib\inc\misc.h
+.\obj\driverextline.o: .\STM32F10x_FWLib\inc\stm32f10x_exti.h
+.\obj\driverextline.o: .\STM32F10x_FWLib\inc\stm32f10x_spi.h
+.\obj\driverextline.o: .\OS32\ostype.h
+.\obj\driverextline.o: .\app\monitoring.h
+.\obj\driverextline.o: .\app\DA7545.h
+.\obj\driverextline.o: driver\DriverSPI.h
+.\obj\driverextline.o: .\STM32F10x_FWLib\inc\stm32f10x_usart.h

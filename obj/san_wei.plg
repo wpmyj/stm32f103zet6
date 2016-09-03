@@ -1,0 +1,21 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\xutiefeng\SoftwareV01\san_wei.uvproj
+Project File Date:  08/29/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling DeviceFsmc.c...
+.\STM32F10x_FWLib\src\stm32f10x_systick.h(38): warning:  #47-D: incompatible redefinition of macro "SysTick_CLKSource_HCLK" (declared at line 173 of ".\STM32F10x_FWLib\inc\misc.h")
+linking...
+Program Size: Code=11800 RO-data=336 RW-data=84 ZI-data=2180  
+".\obj\san_wei.axf" - 0 Errors, 1 Warning(s).
+Build target 'Target 1'
+compiling DeviceFsmc.c...
+.\STM32F10x_FWLib\src\stm32f10x_systick.h(38): warning:  #47-D: incompatible redefinition of macro "SysTick_CLKSource_HCLK" (declared at line 173 of ".\STM32F10x_FWLib\inc\misc.h")
+linking...
+Program Size: Code=11800 RO-data=336 RW-data=84 ZI-data=2180  
+".\obj\san_wei.axf" - 0 Errors, 1 Warning(s).
