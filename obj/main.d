@@ -18,3 +18,6 @@
 .\obj\main.o: .\STM32F10x_FWLib\inc\stm32f10x_usart.h
 .\obj\main.o: .\driver\PGA204.h
 .\obj\main.o: .\STM32F10x_FWLib\inc\stm32f10x_gpio.h
+.\obj\main.o: .\driver\DeviceFsmc.h
+.\obj\main.o: .\STM32F10x_FWLib\inc\stm32f10x_fsmc.h
+.\obj\main.o: app\led.h

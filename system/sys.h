@@ -84,7 +84,8 @@
 #define PGout(n)   BIT_ADDR(GPIOG_ODR_Addr,n)  //输出 
 #define PGin(n)    BIT_ADDR(GPIOG_IDR_Addr,n)  //输入
 /////////////////////////////////////////////////////////////////
-//Ex_NVIC_Config专用定义
+//Ex_NVIC_Config专用定义.
+
 #define GPIO_A 0
 #define GPIO_B 1
 #define GPIO_C 2

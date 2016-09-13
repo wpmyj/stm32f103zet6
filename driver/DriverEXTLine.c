@@ -38,8 +38,8 @@ void ExtLineConfig(u8 x,u8 nun)
 		 case 7:
 		 {
 
-			GPIO_InitStructure.GPIO_Pin = 1 << nun ;	
-			GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;
+			  GPIO_InitStructure.GPIO_Pin = 1 << nun ;	
+			  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;
 				GPIO_Init(GPIOG, &GPIO_InitStructure);		 			
 
 		 	    GPIO_EXTILineConfig(x,nun);
@@ -77,6 +77,27 @@ void ExtLineConfig(u8 x,u8 nun)
 			NVIC_Init(&NVIC_InitStructure);
 		 }
 		 break;
+		 
+		 case 8:
+		 {
+			GPIO_InitStructure.GPIO_Pin = 1 << nun ;	
+			GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU;
+			GPIO_Init(GPIOG, &GPIO_InitStructure);
+
+			GPIO_EXTILineConfig(x,nun);
+			EXTI_InitStructure.EXTI_Line= 1 << nun ;	 
+			EXTI_InitStructure.EXTI_Mode = EXTI_Mode_Interrupt;	
+			EXTI_InitStructure.EXTI_Trigger = EXTI_Trigger_Falling;
+			EXTI_InitStructure.EXTI_LineCmd = ENABLE;
+			EXTI_Init(&EXTI_InitStructure);	 	//根据EXTI_InitStruct中指定的参数初始化外设EXTI寄存器
+			
+			NVIC_InitStructure.NVIC_IRQChannel = EXTI9_5_IRQn;			
+			NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 0X02;	
+			NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;					
+			NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;							
+			NVIC_Init(&NVIC_InitStructure);
+		 }
+		 break;
 
 
 		 default:
@@ -85,7 +106,10 @@ void ExtLineConfig(u8 x,u8 nun)
 }
 
 SPI_INFO	   stSPIvalue = 0;
+
 extern ST_Flag gstFlag;
+extern void AD7606_Handle(void);
+
 void EXTI9_5_IRQHandler(void)
 {
 	u8 statue = 0;
@@ -94,6 +118,17 @@ void EXTI9_5_IRQHandler(void)
 	{ 
 		EXTI_ClearITPendingBit(EXTI_Line7);  //清除LINE2上的中断标志位 
 		setDC_Value(0);
+	}
+	
+	if(EXTI_GetFlagStatus(EXTI_Line8))
+	{ 
+		
+		GPIO_WriteBit(GPIOB, GPIO_Pin_6, (BitAction) (1 - GPIO_ReadOutputDataBit(GPIOB, GPIO_Pin_6)));
+		//UART4->DR  = 0x55;
+		//UART4->DR  = 0xaa;
+    AD7606_Handle();
+
+		EXTI_ClearITPendingBit(EXTI_Line8);  //清除LINE2上的中断标志位 
 	}
 
 	if(EXTI_GetFlagStatus(EXTI_Line6))

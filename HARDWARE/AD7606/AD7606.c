@@ -24,6 +24,10 @@ __ASM uint32_t __RBIT1(uint32_t value)
 }
 
 
+AD7606_INFO stAd7606;
+
+AD7606_DATA_INFO stAD7606Data;
+
 
 void AD7606_Init(void)
 {
@@ -61,44 +65,38 @@ void AD7606_Init(void)
 	GPIO_Init(GPIOC, &GPIO_InitStructure);	
 
 	////∏≥÷µ≥ı ºªØ
-	g_stVlue.tMailBox =   &T7606Mail;
+	//g_stVlue.tMailBox =   &T7606Mail;
 }
 
+extern void Sample_ch4(void);
 
 void AD7606_Handle(void)
 {
-	 u8 i = 0;																											   
+	 u32 i = 0;		
+   
 	 float ulTem1 = 0;
-	 GPIO_ResetBits(GPIOC, 1 << CONYA_B);
-	 delay(100);
-	 GPIO_SetBits(GPIOC,1 << CONYA_B); 
-	 while(GPIO_ReadInputDataBit(GPIOA, 1 << AD_BURY) == 0);
+	
+	 if(g_stVlue.ad7606Count >= SAMPLE_RATE)
+   {
+			return;
+	 }
 	 
-	 delay(10);
-
+	 GPIO_ResetBits(GPIOC, 1 << CONYA_B);
+	 g_stVlue.ad7606Count ++;
+	 GPIO_SetBits(GPIOC,1 << CONYA_B); 
+	 
+	 //while((GPIO_ReadInputDataBit(GPIOA, 1 << AD_BURY) == 0) && (i++ < 65535));
+	 
 	 for(i = 0; i < 8; i++)
 	 {
-	 	GPIO_ResetBits(GPIOC, 1 << RD_CS);
-  		g_stVlue.tubAD_Value[i] =  GPIO_ReadInputData(GPIOF);
-		GPIO_SetBits(GPIOC,1 << RD_CS) ;	
-		g_stVlue.tubAD_Value[i] =  (signed short)(__RBIT1( g_stVlue.tubAD_Value[i] & 0x0ffff) >> 16);
+	 	   GPIO_ResetBits(GPIOC, 1 << RD_CS);
+  	   g_stVlue.tubAD_Value[i] =  GPIO_ReadInputData(GPIOF);
+		   GPIO_SetBits(GPIOC,1 << RD_CS) ;	
+		   g_stVlue.tubAD_Value[i] =  (signed short)(__RBIT1( g_stVlue.tubAD_Value[i] & 0x0ffff) >> 16);
+		   stAd7606.ch4 [g_stVlue.ad7606Count]  = g_stVlue.tubAD_Value[4];
 	 }
-
-	 if((g_stVlue.tubAD_Value[7] < 320) &&  (g_stVlue.tubAD_Value[7] > 0))
-	 {
-	 	   SetAmplification(100);
-	 }
-	 else
-	 {
-	 	   g_stVlue.fADValue =  (float)(g_stVlue.tubAD_Value[7] * 10/32768.0);	
-		   g_stVlue.fADValue3 =  (float)(g_stVlue.tubAD_Value[3]* 10/32768.0);
-		   	
-		   if(gstFlag.ubFlag7606 == 0) 
-		   {
-		   		g_stVlue.fADValue4Compensation =  g_stVlue.fADValue3 ;
-				gstFlag.ubFlag7606 = 1;
-		   }
-	 }	 
+	 
+	 
  }
 
 
@@ -122,7 +120,7 @@ void EnableL164245(void)
 void EXTINT2_Init()
 {											  									 
 #if 1
-  	EXTI_InitTypeDef EXTI_InitStructure;
+  EXTI_InitTypeDef EXTI_InitStructure;
  	NVIC_InitTypeDef NVIC_InitStructure;
 	GPIO_InitTypeDef GPIO_InitStructure;
 							  

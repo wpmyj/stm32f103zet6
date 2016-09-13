@@ -5,4 +5,5 @@ void MachineFaultInit(void)
 {
 	  ExtLineConfig(GPIO_PortSourceGPIOA, 12 );
 	  ExtLineConfig(GPIO_PortSourceGPIOG, 7);
+   	ExtLineConfig(GPIO_PortSourceGPIOG, 8);
 }

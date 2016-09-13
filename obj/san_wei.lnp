@@ -17,6 +17,7 @@
 ".\obj\driverextline.o"
 ".\obj\gui.o"
 ".\obj\devicefsmc.o"
+".\obj\led.o"
 ".\obj\cpu.o"
 ".\obj\mytask .o"
 ".\obj\core_cm3.o"

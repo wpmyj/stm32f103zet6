@@ -4,18 +4,1207 @@
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
 E:\xutiefeng\SoftwareV01\san_wei.uvproj
-Project File Date:  08/29/2016
+Project File Date:  09/12/2016
 
 <h2>Output:</h2>
 Build target 'Target 1'
-compiling DeviceFsmc.c...
-.\STM32F10x_FWLib\src\stm32f10x_systick.h(38): warning:  #47-D: incompatible redefinition of macro "SysTick_CLKSource_HCLK" (declared at line 173 of ".\STM32F10x_FWLib\inc\misc.h")
 linking...
-Program Size: Code=11800 RO-data=336 RW-data=84 ZI-data=2180  
-".\obj\san_wei.axf" - 0 Errors, 1 Warning(s).
+Program Size: Code=18778 RO-data=1458 RW-data=2220 ZI-data=8164  
+".\obj\san_wei.axf" - 0 Errors, 0 Warning(s).
 Build target 'Target 1'
-compiling DeviceFsmc.c...
-.\STM32F10x_FWLib\src\stm32f10x_systick.h(38): warning:  #47-D: incompatible redefinition of macro "SysTick_CLKSource_HCLK" (declared at line 173 of ".\STM32F10x_FWLib\inc\misc.h")
+compiling AD7606.c...
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(78): warning:  #1-D: last line of file ends without a newline
+HARDWARE\AD7606\AD7606.c(28): error:  #77-D: this declaration has no storage class or type specifier
+HARDWARE\AD7606\AD7606.c(33): error:  #40: expected an identifier
+HARDWARE\AD7606\AD7606.c(33): error:  #65: expected a ";"
+HARDWARE\AD7606\AD7606.c(76): warning:  #177-D: variable "ulTem1" was declared but never referenced
+".\obj\san_wei.axf" - 3 Errors, 3 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling AD7606.c...
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(78): warning:  #1-D: last line of file ends without a newline
+HARDWARE\AD7606\AD7606.c(28): error:  #77-D: this declaration has no storage class or type specifier
+HARDWARE\AD7606\AD7606.c(76): warning:  #177-D: variable "ulTem1" was declared but never referenced
+".\obj\san_wei.axf" - 1 Errors, 3 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling AD7606.c...
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(78): warning:  #1-D: last line of file ends without a newline
+HARDWARE\AD7606\AD7606.c(76): warning:  #177-D: variable "ulTem1" was declared but never referenced
 linking...
-Program Size: Code=11800 RO-data=336 RW-data=84 ZI-data=2180  
-".\obj\san_wei.axf" - 0 Errors, 1 Warning(s).
+Program Size: Code=18778 RO-data=1458 RW-data=2220 ZI-data=8164  
+".\obj\san_wei.axf" - 0 Errors, 3 Warning(s).
+Build target 'Target 1'
+compiling AD7606.c...
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(78): warning:  #1-D: last line of file ends without a newline
+HARDWARE\AD7606\AD7606.c(83): warning:  #177-D: variable "ulTem1" was declared but never referenced
+linking...
+Program Size: Code=18778 RO-data=1458 RW-data=2220 ZI-data=8164  
+".\obj\san_wei.axf" - 0 Errors, 3 Warning(s).
+Rebuild target 'Target 1'
+compiling config.c...
+assembling startup_stm32f10x_hd.s...
+compiling main.c...
+.\STM32F10x_FWLib\src\stm32f10x_systick.h(38): warning:  #47-D: incompatible redefinition of macro "SysTick_CLKSource_HCLK" (declared at line 173 of ".\STM32F10x_FWLib\inc\misc.h")
+.\driver\DriverSystick.h(7): warning:  #1-D: last line of file ends without a newline
+.\OS32\OSType.h(78): warning:  #1-D: last line of file ends without a newline
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+app\led.h(6): warning:  #1-D: last line of file ends without a newline
+app\main.c(42): warning:  #223-D: function "IE_syDisable" declared implicitly
+app\main.c(49): warning:  #223-D: function "EXTI_DeInit" declared implicitly
+app\main.c(50): warning:  #223-D: function "test_NSS" declared implicitly
+app\main.c(54): warning:  #223-D: function "AD7545_Init" declared implicitly
+app\main.c(55): warning:  #223-D: function "PGA204Init" declared implicitly
+app\main.c(56): warning:  #223-D: function "AD7606_Init" declared implicitly
+app\main.c(57): warning:  #223-D: function "MachineFaultInit" declared implicitly
+app\main.c(59): warning:  #223-D: function "AG320240_Init" declared implicitly
+app\main.c(61): warning:  #223-D: function "delay" declared implicitly
+app\main.c(63): warning:  #223-D: function "screen1" declared implicitly
+app\main.c(66): warning:  #223-D: function "screen2" declared implicitly
+app\main.c(68): warning:  #223-D: function "IE_vSet" declared implicitly
+app\main.c(81): warning:  #223-D: function "AD7606_Handle" declared implicitly
+app\main.c(82): warning:  #223-D: function "test_gui" declared implicitly
+app\main.c(85): warning:  #223-D: function "sprintf" declared implicitly
+app\main.c(86): warning:  #223-D: function "chdisp" declared implicitly
+compiling delay.c...
+compiling PowerMachineFault.c...
+.\OS32\ostype.h(78): warning:  #1-D: last line of file ends without a newline
+.\driver\DriverEXTLine.h(13): warning:  #1-D: last line of file ends without a newline
+app\PowerMachineFault.h(6): warning:  #1-D: last line of file ends without a newline
+compiling monitoring.c...
+.\OS32\OSType.h(78): warning:  #1-D: last line of file ends without a newline
+app\monitoring.c(31): warning:  #940-D: missing return statement at end of non-void function "Sample_Chanal"
+app\monitoring.c(15): warning:  #177-D: variable "j" was declared but never referenced
+app\monitoring.c(55): warning:  #177-D: variable "i" was declared but never referenced
+app\monitoring.c(60): warning:  #177-D: variable "syFlagIE" was declared but never referenced
+".\obj\san_wei.axf" - 0 Errors, 29 Warning(s).
+Project build/rebuild aborted.
+Build target 'Target 1'
+compiling AD7606.c...
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(78): warning:  #1-D: last line of file ends without a newline
+HARDWARE\AD7606\AD7606.c(83): warning:  #177-D: variable "ulTem1" was declared but never referenced
+linking...
+Program Size: Code=18778 RO-data=1458 RW-data=2220 ZI-data=8164  
+".\obj\san_wei.axf" - 0 Errors, 3 Warning(s).
+Build target 'Target 1'
+compiling AD7606.c...
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(78): warning:  #1-D: last line of file ends without a newline
+HARDWARE\AD7606\AD7606.c(83): warning:  #177-D: variable "ulTem1" was declared but never referenced
+linking...
+Program Size: Code=18778 RO-data=1458 RW-data=2220 ZI-data=8164  
+".\obj\san_wei.axf" - 0 Errors, 3 Warning(s).
+Build target 'Target 1'
+compiling AD7606.c...
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(78): warning:  #1-D: last line of file ends without a newline
+HARDWARE\AD7606\AD7606.c(82): warning:  #177-D: variable "i" was declared but never referenced
+HARDWARE\AD7606\AD7606.c(83): warning:  #177-D: variable "ulTem1" was declared but never referenced
+linking...
+Program Size: Code=18738 RO-data=1458 RW-data=2220 ZI-data=8164  
+".\obj\san_wei.axf" - 0 Errors, 4 Warning(s).
+Build target 'Target 1'
+compiling AD7606.c...
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(78): warning:  #1-D: last line of file ends without a newline
+HARDWARE\AD7606\AD7606.c(109): error:  #142: expression must have pointer-to-object type
+HARDWARE\AD7606\AD7606.c(83): warning:  #177-D: variable "ulTem1" was declared but never referenced
+".\obj\san_wei.axf" - 1 Errors, 3 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling AD7606.c...
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(78): warning:  #1-D: last line of file ends without a newline
+HARDWARE\AD7606\AD7606.c(114): error:  #142: expression must have pointer-to-object type
+HARDWARE\AD7606\AD7606.c(87): warning:  #177-D: variable "i" was declared but never referenced
+HARDWARE\AD7606\AD7606.c(88): warning:  #177-D: variable "ulTem1" was declared but never referenced
+".\obj\san_wei.axf" - 1 Errors, 4 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling AD7606.c...
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(78): warning:  #1-D: last line of file ends without a newline
+HARDWARE\AD7606\AD7606.c(115): error:  #142: expression must have pointer-to-object type
+HARDWARE\AD7606\AD7606.c(87): warning:  #177-D: variable "i" was declared but never referenced
+HARDWARE\AD7606\AD7606.c(88): warning:  #177-D: variable "ch6" was declared but never referenced
+HARDWARE\AD7606\AD7606.c(89): warning:  #177-D: variable "ulTem1" was declared but never referenced
+".\obj\san_wei.axf" - 1 Errors, 5 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+.\STM32F10x_FWLib\src\stm32f10x_systick.h(38): warning:  #47-D: incompatible redefinition of macro "SysTick_CLKSource_HCLK" (declared at line 173 of ".\STM32F10x_FWLib\inc\misc.h")
+.\driver\DriverSystick.h(7): warning:  #1-D: last line of file ends without a newline
+.\OS32\OSType.h(97): warning:  #1-D: last line of file ends without a newline
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+app\led.h(6): warning:  #1-D: last line of file ends without a newline
+app\main.c(42): warning:  #223-D: function "IE_syDisable" declared implicitly
+app\main.c(49): warning:  #223-D: function "EXTI_DeInit" declared implicitly
+app\main.c(50): warning:  #223-D: function "test_NSS" declared implicitly
+app\main.c(54): warning:  #223-D: function "AD7545_Init" declared implicitly
+app\main.c(55): warning:  #223-D: function "PGA204Init" declared implicitly
+app\main.c(56): warning:  #223-D: function "AD7606_Init" declared implicitly
+app\main.c(57): warning:  #223-D: function "MachineFaultInit" declared implicitly
+app\main.c(59): warning:  #223-D: function "AG320240_Init" declared implicitly
+app\main.c(61): warning:  #223-D: function "delay" declared implicitly
+app\main.c(63): warning:  #223-D: function "screen1" declared implicitly
+app\main.c(66): warning:  #223-D: function "screen2" declared implicitly
+app\main.c(68): warning:  #223-D: function "IE_vSet" declared implicitly
+app\main.c(81): warning:  #223-D: function "AD7606_Handle" declared implicitly
+app\main.c(82): warning:  #223-D: function "test_gui" declared implicitly
+app\main.c(85): warning:  #223-D: function "sprintf" declared implicitly
+app\main.c(86): warning:  #223-D: function "chdisp" declared implicitly
+compiling PowerMachineFault.c...
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+.\driver\DriverEXTLine.h(13): warning:  #1-D: last line of file ends without a newline
+app\PowerMachineFault.h(6): warning:  #1-D: last line of file ends without a newline
+compiling monitoring.c...
+.\OS32\OSType.h(97): warning:  #1-D: last line of file ends without a newline
+app\monitoring.c(31): warning:  #940-D: missing return statement at end of non-void function "Sample_Chanal"
+app\monitoring.c(15): warning:  #177-D: variable "j" was declared but never referenced
+app\monitoring.c(55): warning:  #177-D: variable "i" was declared but never referenced
+app\monitoring.c(60): warning:  #177-D: variable "syFlagIE" was declared but never referenced
+compiling DriverIt.c...
+.\OS32\OSType.h(97): warning:  #1-D: last line of file ends without a newline
+compiling DriverSystick.c...
+.\STM32F10x_FWLib\src\stm32f10x_systick.h(38): warning:  #47-D: incompatible redefinition of macro "SysTick_CLKSource_HCLK" (declared at line 173 of ".\STM32F10x_FWLib\inc\misc.h")
+driver\DriverSystick.h(7): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+compiling AD7606.c...
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+HARDWARE\AD7606\AD7606.c(66): error:  #136: struct "<unnamed>" has no field "tMailBox"
+HARDWARE\AD7606\AD7606.c(73): warning:  #177-D: variable "i" was declared but never referenced
+HARDWARE\AD7606\AD7606.c(75): warning:  #177-D: variable "ulTem1" was declared but never referenced
+compiling 1335.C...
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+.\gui\INC\option.h(74): warning:  #1-D: last line of file ends without a newline
+.\gui\INC\def.h(1032): warning:  #47-D: incompatible redefinition of macro "Pi" (declared at line 6 of ".\app\monitoring.h")
+.\driver\DriverSPI.h(28): warning:  #1-D: last line of file ends without a newline
+app\1335.C(695): warning:  #223-D: function "ExtLineConfig" declared implicitly
+app\1335.C(700): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(701): warning:  #223-D: function "delay" declared implicitly
+app\1335.C(702): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(652): warning:  #177-D: variable "EXTI_InitStructure" was declared but never referenced
+app\1335.C(653): warning:  #177-D: variable "NVIC_InitStructure" was declared but never referenced
+app\1335.C(711): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(712): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(721): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(725): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(730): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(734): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(739): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(743): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(748): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(752): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(757): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(761): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(764): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(766): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(767): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(773): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(774): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(782): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(786): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(791): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(795): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(800): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(804): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(809): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(813): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(818): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(822): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(827): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(829): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(830): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(938): warning:  #223-D: function "delay" declared implicitly
+app\1335.C(1002): warning:  #223-D: function "delay" declared implicitly
+app\1335.C(1013): warning:  #223-D: function "delay" declared implicitly
+app\1335.C(1032): warning:  #223-D: function "delay" declared implicitly
+app\1335.C(1050): warning:  #223-D: function "delay" declared implicitly
+app\1335.C(1478): warning:  #223-D: function "delay" declared implicitly
+app\1335.C(1565): warning:  #223-D: function "delay" declared implicitly
+compiling DriverUsart4.c...
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+driver\DriverUsart4.c(108): warning:  #177-D: variable "tem" was declared but never referenced
+driver\DriverUsart4.c(201): warning:  #223-D: function "memset" declared implicitly
+compiling DriverEXTLine.c...
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+driver\DriverEXTLine.h(13): warning:  #1-D: last line of file ends without a newline
+driver\DriverSPI.h(28): warning:  #1-D: last line of file ends without a newline
+driver\DriverEXTLine.c(8): warning:  #177-D: variable "uba1" was declared but never referenced
+driver\DriverEXTLine.c(8): warning:  #177-D: variable "uba2" was declared but never referenced
+driver\DriverEXTLine.c(108): warning:  #520-D: initialization with "{...}" expected for aggregate object
+driver\DriverEXTLine.c(115): warning:  #177-D: variable "statue" was declared but never referenced
+driver\DriverEXTLine.c(116): warning:  #177-D: variable "i" was declared but never referenced
+compiling gui.c...
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+driver\gui.c(42): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c(43): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+driver\gui.c(60): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c(62): warning:  #223-D: function "SetCursor" declared implicitly
+driver\gui.c(56): warning:  #177-D: variable "ghigh" was declared but never referenced
+driver\gui.c(189): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c(190): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+driver\gui.c(202): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c(203): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+driver\gui.c(215): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c(217): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+driver\gui.c(229): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c(231): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+driver\gui.c(243): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c(245): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+driver\gui.c(256): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c(258): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+compiling MyTask .c...
+OS32\OSType.h(97): warning:  #1-D: last line of file ends without a newline
+OS32\MyTask .c(43): warning:  #223-D: function "Sleep_vProcess" declared implicitly
+OS32\MyTask .c(48): warning:  #550-D: parameter "__hi" was set but never used
+OS32\MyTask .c(79): warning:  #177-D: variable "pub" was declared but never referenced
+OS32\MyTask .c(121): warning:  #177-D: variable "ubTableIndex" was declared but never referenced
+OS32\MyTask .c(122): warning:  #177-D: variable "ubPriValue" was declared but never referenced
+OS32\MyTask .c(123): warning:  #177-D: variable "ubHighestPri" was declared but never referenced
+OS32\MyTask .c(124): warning:  #177-D: variable "i" was declared but never referenced
+OS32\MyTask .c(147): warning:  #177-D: variable "a" was declared but never referenced
+OS32\MyTask .c(157): warning:  #223-D: function "AD7545_Init" declared implicitly
+OS32\MyTask .c(179): warning:  #223-D: function "IE_vGenerateFirstPendSV" declared implicitly
+OS32\MyTask .c(170): warning:  #177-D: variable "ulHighPri" was declared but never referenced
+OS32\MyTask .c(171): warning:  #177-D: variable "pub" was declared but never referenced
+OS32\MyTask .c(232): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c(240): warning:  #223-D: function "IE_vGeneratePendSV" declared implicitly
+OS32\MyTask .c(243): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c(250): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c(251): warning:  #223-D: function "Sleep_vSet" declared implicitly
+OS32\MyTask .c(253): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c(262): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c(265): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c(260): warning:  #177-D: variable "pub" was declared but never referenced
+OS32\MyTask .c(261): warning:  #177-D: variable "ulHighPri" was declared but never referenced
+OS32\MyTask .c(275): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c(278): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c(284): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c(272): warning:  #177-D: variable "pub" was declared but never referenced
+OS32\MyTask .c(273): warning:  #177-D: variable "ulHighPri" was declared but never referenced
+OS32\MyTask .c(292): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c(294): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c(303): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c(306): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c(312): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c(314): warning:  #223-D: function "IE_vGeneratePendSV" declared implicitly
+OS32\MyTask .c(315): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c(36): warning:  #177-D: function "_vTaskSleep" was declared but never referenced
+compiling OS004_Sleep.c...
+OS32\OSType.h(97): warning:  #1-D: last line of file ends without a newline
+".\obj\san_wei.axf" - 1 Errors, 150 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling AD7606.c...
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+HARDWARE\AD7606\AD7606.c(66): error:  #136: struct "<unnamed>" has no field "tMailBox"
+HARDWARE\AD7606\AD7606.c(73): warning:  #177-D: variable "i" was declared but never referenced
+HARDWARE\AD7606\AD7606.c(75): warning:  #177-D: variable "ulTem1" was declared but never referenced
+".\obj\san_wei.axf" - 1 Errors, 4 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling AD7606.c...
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+HARDWARE\AD7606\AD7606.c(73): warning:  #177-D: variable "i" was declared but never referenced
+HARDWARE\AD7606\AD7606.c(75): warning:  #177-D: variable "ulTem1" was declared but never referenced
+linking...
+Program Size: Code=18778 RO-data=1458 RW-data=2220 ZI-data=1740  
+".\obj\san_wei.axf" - 0 Errors, 4 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+.\STM32F10x_FWLib\src\stm32f10x_systick.h(38): warning:  #47-D: incompatible redefinition of macro "SysTick_CLKSource_HCLK" (declared at line 173 of ".\STM32F10x_FWLib\inc\misc.h")
+.\driver\DriverSystick.h(7): warning:  #1-D: last line of file ends without a newline
+.\OS32\OSType.h(87): warning:  #1-D: last line of file ends without a newline
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+app\led.h(6): warning:  #1-D: last line of file ends without a newline
+app\main.c(42): warning:  #223-D: function "IE_syDisable" declared implicitly
+app\main.c(49): warning:  #223-D: function "EXTI_DeInit" declared implicitly
+app\main.c(50): warning:  #223-D: function "test_NSS" declared implicitly
+app\main.c(54): warning:  #223-D: function "AD7545_Init" declared implicitly
+app\main.c(55): warning:  #223-D: function "PGA204Init" declared implicitly
+app\main.c(56): warning:  #223-D: function "AD7606_Init" declared implicitly
+app\main.c(57): warning:  #223-D: function "MachineFaultInit" declared implicitly
+app\main.c(59): warning:  #223-D: function "AG320240_Init" declared implicitly
+app\main.c(61): warning:  #223-D: function "delay" declared implicitly
+app\main.c(63): warning:  #223-D: function "screen1" declared implicitly
+app\main.c(66): warning:  #223-D: function "screen2" declared implicitly
+app\main.c(68): warning:  #223-D: function "IE_vSet" declared implicitly
+app\main.c(81): warning:  #223-D: function "AD7606_Handle" declared implicitly
+app\main.c(82): warning:  #223-D: function "test_gui" declared implicitly
+app\main.c(85): warning:  #223-D: function "sprintf" declared implicitly
+app\main.c(86): warning:  #223-D: function "chdisp" declared implicitly
+compiling PowerMachineFault.c...
+.\OS32\ostype.h(87): warning:  #1-D: last line of file ends without a newline
+.\driver\DriverEXTLine.h(13): warning:  #1-D: last line of file ends without a newline
+app\PowerMachineFault.h(6): warning:  #1-D: last line of file ends without a newline
+compiling monitoring.c...
+.\OS32\OSType.h(87): warning:  #1-D: last line of file ends without a newline
+app\monitoring.c(7): error:  #20: identifier "AD7606_INFO" is undefined
+app\monitoring.c(31): warning:  #940-D: missing return statement at end of non-void function "Sample_Chanal"
+app\monitoring.c(15): warning:  #177-D: variable "j" was declared but never referenced
+app\monitoring.c(55): warning:  #177-D: variable "i" was declared but never referenced
+app\monitoring.c(60): warning:  #177-D: variable "syFlagIE" was declared but never referenced
+compiling DriverIt.c...
+.\OS32\OSType.h(87): warning:  #1-D: last line of file ends without a newline
+compiling DriverSystick.c...
+.\STM32F10x_FWLib\src\stm32f10x_systick.h(38): warning:  #47-D: incompatible redefinition of macro "SysTick_CLKSource_HCLK" (declared at line 173 of ".\STM32F10x_FWLib\inc\misc.h")
+driver\DriverSystick.h(7): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(87): warning:  #1-D: last line of file ends without a newline
+driver\DriverSystick.c(14): error:  #20: identifier "AD7606_INFO" is undefined
+compiling AD7606.c...
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(87): warning:  #1-D: last line of file ends without a newline
+HARDWARE\AD7606\AD7606.c(75): warning:  #177-D: variable "i" was declared but never referenced
+HARDWARE\AD7606\AD7606.c(77): warning:  #177-D: variable "ulTem1" was declared but never referenced
+compiling 1335.C...
+.\OS32\ostype.h(87): warning:  #1-D: last line of file ends without a newline
+.\gui\INC\option.h(74): warning:  #1-D: last line of file ends without a newline
+.\gui\INC\def.h(1032): warning:  #47-D: incompatible redefinition of macro "Pi" (declared at line 6 of ".\app\monitoring.h")
+.\driver\DriverSPI.h(28): warning:  #1-D: last line of file ends without a newline
+app\1335.C(695): warning:  #223-D: function "ExtLineConfig" declared implicitly
+app\1335.C(700): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(701): warning:  #223-D: function "delay" declared implicitly
+app\1335.C(702): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(652): warning:  #177-D: variable "EXTI_InitStructure" was declared but never referenced
+app\1335.C(653): warning:  #177-D: variable "NVIC_InitStructure" was declared but never referenced
+app\1335.C(711): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(712): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(721): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(725): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(730): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(734): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(739): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(743): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(748): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(752): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(757): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(761): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(764): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(766): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(767): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(773): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(774): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(782): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(786): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(791): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(795): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(800): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(804): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(809): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(813): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(818): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(822): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(827): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(829): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(830): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(938): warning:  #223-D: function "delay" declared implicitly
+app\1335.C(1002): warning:  #223-D: function "delay" declared implicitly
+app\1335.C(1013): warning:  #223-D: function "delay" declared implicitly
+app\1335.C(1032): warning:  #223-D: function "delay" declared implicitly
+app\1335.C(1050): warning:  #223-D: function "delay" declared implicitly
+app\1335.C(1478): warning:  #223-D: function "delay" declared implicitly
+app\1335.C(1565): warning:  #223-D: function "delay" declared implicitly
+compiling DriverUsart4.c...
+.\OS32\ostype.h(87): warning:  #1-D: last line of file ends without a newline
+driver\DriverUsart4.c(108): warning:  #177-D: variable "tem" was declared but never referenced
+driver\DriverUsart4.c(201): warning:  #223-D: function "memset" declared implicitly
+compiling DriverEXTLine.c...
+.\OS32\ostype.h(87): warning:  #1-D: last line of file ends without a newline
+driver\DriverEXTLine.h(13): warning:  #1-D: last line of file ends without a newline
+driver\DriverSPI.h(28): warning:  #1-D: last line of file ends without a newline
+driver\DriverEXTLine.c(8): warning:  #177-D: variable "uba1" was declared but never referenced
+driver\DriverEXTLine.c(8): warning:  #177-D: variable "uba2" was declared but never referenced
+driver\DriverEXTLine.c(108): warning:  #520-D: initialization with "{...}" expected for aggregate object
+driver\DriverEXTLine.c(115): warning:  #177-D: variable "statue" was declared but never referenced
+driver\DriverEXTLine.c(116): warning:  #177-D: variable "i" was declared but never referenced
+compiling gui.c...
+.\OS32\ostype.h(87): warning:  #1-D: last line of file ends without a newline
+driver\gui.c(42): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c(43): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+driver\gui.c(60): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c(62): warning:  #223-D: function "SetCursor" declared implicitly
+driver\gui.c(56): warning:  #177-D: variable "ghigh" was declared but never referenced
+driver\gui.c(189): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c(190): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+driver\gui.c(202): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c(203): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+driver\gui.c(215): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c(217): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+driver\gui.c(229): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c(231): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+driver\gui.c(243): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c(245): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+driver\gui.c(256): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c(258): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+compiling MyTask .c...
+OS32\OSType.h(87): warning:  #1-D: last line of file ends without a newline
+OS32\MyTask .c(43): warning:  #223-D: function "Sleep_vProcess" declared implicitly
+OS32\MyTask .c(48): warning:  #550-D: parameter "__hi" was set but never used
+OS32\MyTask .c(79): warning:  #177-D: variable "pub" was declared but never referenced
+OS32\MyTask .c(121): warning:  #177-D: variable "ubTableIndex" was declared but never referenced
+OS32\MyTask .c(122): warning:  #177-D: variable "ubPriValue" was declared but never referenced
+OS32\MyTask .c(123): warning:  #177-D: variable "ubHighestPri" was declared but never referenced
+OS32\MyTask .c(124): warning:  #177-D: variable "i" was declared but never referenced
+OS32\MyTask .c(147): warning:  #177-D: variable "a" was declared but never referenced
+OS32\MyTask .c(157): warning:  #223-D: function "AD7545_Init" declared implicitly
+OS32\MyTask .c(179): warning:  #223-D: function "IE_vGenerateFirstPendSV" declared implicitly
+OS32\MyTask .c(170): warning:  #177-D: variable "ulHighPri" was declared but never referenced
+OS32\MyTask .c(171): warning:  #177-D: variable "pub" was declared but never referenced
+OS32\MyTask .c(232): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c(240): warning:  #223-D: function "IE_vGeneratePendSV" declared implicitly
+OS32\MyTask .c(243): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c(250): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c(251): warning:  #223-D: function "Sleep_vSet" declared implicitly
+OS32\MyTask .c(253): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c(262): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c(265): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c(260): warning:  #177-D: variable "pub" was declared but never referenced
+OS32\MyTask .c(261): warning:  #177-D: variable "ulHighPri" was declared but never referenced
+OS32\MyTask .c(275): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c(278): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c(284): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c(272): warning:  #177-D: variable "pub" was declared but never referenced
+OS32\MyTask .c(273): warning:  #177-D: variable "ulHighPri" was declared but never referenced
+OS32\MyTask .c(292): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c(294): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c(303): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c(306): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c(312): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c(314): warning:  #223-D: function "IE_vGeneratePendSV" declared implicitly
+OS32\MyTask .c(315): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c(36): warning:  #177-D: function "_vTaskSleep" was declared but never referenced
+compiling OS004_Sleep.c...
+OS32\OSType.h(87): warning:  #1-D: last line of file ends without a newline
+".\obj\san_wei.axf" - 2 Errors, 150 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling monitoring.c...
+.\OS32\OSType.h(87): warning:  #1-D: last line of file ends without a newline
+app\monitoring.c(7): error:  #20: identifier "AD7606_INFO" is undefined
+app\monitoring.c(31): warning:  #940-D: missing return statement at end of non-void function "Sample_Chanal"
+app\monitoring.c(15): warning:  #177-D: variable "j" was declared but never referenced
+app\monitoring.c(55): warning:  #177-D: variable "i" was declared but never referenced
+app\monitoring.c(60): warning:  #177-D: variable "syFlagIE" was declared but never referenced
+compiling DriverSystick.c...
+.\STM32F10x_FWLib\src\stm32f10x_systick.h(38): warning:  #47-D: incompatible redefinition of macro "SysTick_CLKSource_HCLK" (declared at line 173 of ".\STM32F10x_FWLib\inc\misc.h")
+driver\DriverSystick.h(7): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(87): warning:  #1-D: last line of file ends without a newline
+driver\DriverSystick.c(14): error:  #20: identifier "AD7606_INFO" is undefined
+".\obj\san_wei.axf" - 2 Errors, 8 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling monitoring.c...
+.\OS32\OSType.h(87): warning:  #1-D: last line of file ends without a newline
+app\monitoring.c(23): error:  #20: identifier "stAd7606" is undefined
+app\monitoring.c(30): warning:  #940-D: missing return statement at end of non-void function "Sample_Chanal"
+app\monitoring.c(14): warning:  #177-D: variable "j" was declared but never referenced
+app\monitoring.c(42): error:  #20: identifier "stAd7606" is undefined
+app\monitoring.c(54): warning:  #177-D: variable "i" was declared but never referenced
+app\monitoring.c(59): warning:  #177-D: variable "syFlagIE" was declared but never referenced
+app\monitoring.c(90): error:  #20: identifier "stAd7606" is undefined
+compiling DriverSystick.c...
+.\STM32F10x_FWLib\src\stm32f10x_systick.h(38): warning:  #47-D: incompatible redefinition of macro "SysTick_CLKSource_HCLK" (declared at line 173 of ".\STM32F10x_FWLib\inc\misc.h")
+driver\DriverSystick.h(7): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(87): warning:  #1-D: last line of file ends without a newline
+driver\DriverSystick.c(14): error:  #20: identifier "AD7606_INFO" is undefined
+".\obj\san_wei.axf" - 4 Errors, 8 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+.\STM32F10x_FWLib\src\stm32f10x_systick.h(38): warning:  #47-D: incompatible redefinition of macro "SysTick_CLKSource_HCLK" (declared at line 173 of ".\STM32F10x_FWLib\inc\misc.h")
+.\driver\DriverSystick.h(7): warning:  #1-D: last line of file ends without a newline
+.\OS32\OSType.h(97): warning:  #1-D: last line of file ends without a newline
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+app\led.h(6): warning:  #1-D: last line of file ends without a newline
+app\main.c(42): warning:  #223-D: function "IE_syDisable" declared implicitly
+app\main.c(49): warning:  #223-D: function "EXTI_DeInit" declared implicitly
+app\main.c(50): warning:  #223-D: function "test_NSS" declared implicitly
+app\main.c(54): warning:  #223-D: function "AD7545_Init" declared implicitly
+app\main.c(55): warning:  #223-D: function "PGA204Init" declared implicitly
+app\main.c(56): warning:  #223-D: function "AD7606_Init" declared implicitly
+app\main.c(57): warning:  #223-D: function "MachineFaultInit" declared implicitly
+app\main.c(59): warning:  #223-D: function "AG320240_Init" declared implicitly
+app\main.c(61): warning:  #223-D: function "delay" declared implicitly
+app\main.c(63): warning:  #223-D: function "screen1" declared implicitly
+app\main.c(66): warning:  #223-D: function "screen2" declared implicitly
+app\main.c(68): warning:  #223-D: function "IE_vSet" declared implicitly
+app\main.c(81): warning:  #223-D: function "AD7606_Handle" declared implicitly
+app\main.c(82): warning:  #223-D: function "test_gui" declared implicitly
+app\main.c(85): warning:  #223-D: function "sprintf" declared implicitly
+app\main.c(86): warning:  #223-D: function "chdisp" declared implicitly
+compiling PowerMachineFault.c...
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+.\driver\DriverEXTLine.h(13): warning:  #1-D: last line of file ends without a newline
+app\PowerMachineFault.h(6): warning:  #1-D: last line of file ends without a newline
+compiling monitoring.c...
+.\OS32\OSType.h(97): warning:  #1-D: last line of file ends without a newline
+app\monitoring.c(23): error:  #20: identifier "stAd7606" is undefined
+app\monitoring.c(30): warning:  #940-D: missing return statement at end of non-void function "Sample_Chanal"
+app\monitoring.c(14): warning:  #177-D: variable "j" was declared but never referenced
+app\monitoring.c(42): error:  #20: identifier "stAd7606" is undefined
+app\monitoring.c(54): warning:  #177-D: variable "i" was declared but never referenced
+app\monitoring.c(59): warning:  #177-D: variable "syFlagIE" was declared but never referenced
+app\monitoring.c(90): error:  #20: identifier "stAd7606" is undefined
+compiling DriverIt.c...
+.\OS32\OSType.h(97): warning:  #1-D: last line of file ends without a newline
+compiling DriverSystick.c...
+.\STM32F10x_FWLib\src\stm32f10x_systick.h(38): warning:  #47-D: incompatible redefinition of macro "SysTick_CLKSource_HCLK" (declared at line 173 of ".\STM32F10x_FWLib\inc\misc.h")
+driver\DriverSystick.h(7): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+compiling AD7606.c...
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+HARDWARE\AD7606\AD7606.c(75): warning:  #177-D: variable "i" was declared but never referenced
+HARDWARE\AD7606\AD7606.c(77): warning:  #177-D: variable "ulTem1" was declared but never referenced
+compiling 1335.C...
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+.\gui\INC\option.h(74): warning:  #1-D: last line of file ends without a newline
+.\gui\INC\def.h(1032): warning:  #47-D: incompatible redefinition of macro "Pi" (declared at line 6 of ".\app\monitoring.h")
+.\driver\DriverSPI.h(28): warning:  #1-D: last line of file ends without a newline
+app\1335.C(695): warning:  #223-D: function "ExtLineConfig" declared implicitly
+app\1335.C(700): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(701): warning:  #223-D: function "delay" declared implicitly
+app\1335.C(702): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(652): warning:  #177-D: variable "EXTI_InitStructure" was declared but never referenced
+app\1335.C(653): warning:  #177-D: variable "NVIC_InitStructure" was declared but never referenced
+app\1335.C(711): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(712): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(721): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(725): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(730): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(734): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(739): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(743): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(748): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(752): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(757): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(761): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(764): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(766): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(767): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(773): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(774): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(782): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(786): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(791): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(795): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(800): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(804): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(809): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(813): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(818): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(822): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(827): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(829): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(830): warning:  #188-D: enumerated type mixed with another type
+app\1335.C(938): warning:  #223-D: function "delay" declared implicitly
+app\1335.C(1002): warning:  #223-D: function "delay" declared implicitly
+app\1335.C(1013): warning:  #223-D: function "delay" declared implicitly
+app\1335.C(1032): warning:  #223-D: function "delay" declared implicitly
+app\1335.C(1050): warning:  #223-D: function "delay" declared implicitly
+app\1335.C(1478): warning:  #223-D: function "delay" declared implicitly
+app\1335.C(1565): warning:  #223-D: function "delay" declared implicitly
+compiling DriverUsart4.c...
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+driver\DriverUsart4.c(108): warning:  #177-D: variable "tem" was declared but never referenced
+driver\DriverUsart4.c(201): warning:  #223-D: function "memset" declared implicitly
+compiling DriverEXTLine.c...
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+driver\DriverEXTLine.h(13): warning:  #1-D: last line of file ends without a newline
+driver\DriverSPI.h(28): warning:  #1-D: last line of file ends without a newline
+driver\DriverEXTLine.c(8): warning:  #177-D: variable "uba1" was declared but never referenced
+driver\DriverEXTLine.c(8): warning:  #177-D: variable "uba2" was declared but never referenced
+driver\DriverEXTLine.c(108): warning:  #520-D: initialization with "{...}" expected for aggregate object
+driver\DriverEXTLine.c(115): warning:  #177-D: variable "statue" was declared but never referenced
+driver\DriverEXTLine.c(116): warning:  #177-D: variable "i" was declared but never referenced
+compiling gui.c...
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+driver\gui.c(42): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c(43): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+driver\gui.c(60): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c(62): warning:  #223-D: function "SetCursor" declared implicitly
+driver\gui.c(56): warning:  #177-D: variable "ghigh" was declared but never referenced
+driver\gui.c(189): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c(190): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+driver\gui.c(202): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c(203): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+driver\gui.c(215): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c(217): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+driver\gui.c(229): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c(231): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+driver\gui.c(243): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c(245): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+driver\gui.c(256): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c(258): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+compiling MyTask .c...
+OS32\OSType.h(97): warning:  #1-D: last line of file ends without a newline
+OS32\MyTask .c(43): warning:  #223-D: function "Sleep_vProcess" declared implicitly
+OS32\MyTask .c(48): warning:  #550-D: parameter "__hi" was set but never used
+OS32\MyTask .c(79): warning:  #177-D: variable "pub" was declared but never referenced
+OS32\MyTask .c(121): warning:  #177-D: variable "ubTableIndex" was declared but never referenced
+OS32\MyTask .c(122): warning:  #177-D: variable "ubPriValue" was declared but never referenced
+OS32\MyTask .c(123): warning:  #177-D: variable "ubHighestPri" was declared but never referenced
+OS32\MyTask .c(124): warning:  #177-D: variable "i" was declared but never referenced
+OS32\MyTask .c(147): warning:  #177-D: variable "a" was declared but never referenced
+OS32\MyTask .c(157): warning:  #223-D: function "AD7545_Init" declared implicitly
+OS32\MyTask .c(179): warning:  #223-D: function "IE_vGenerateFirstPendSV" declared implicitly
+OS32\MyTask .c(170): warning:  #177-D: variable "ulHighPri" was declared but never referenced
+OS32\MyTask .c(171): warning:  #177-D: variable "pub" was declared but never referenced
+OS32\MyTask .c(232): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c(240): warning:  #223-D: function "IE_vGeneratePendSV" declared implicitly
+OS32\MyTask .c(243): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c(250): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c(251): warning:  #223-D: function "Sleep_vSet" declared implicitly
+OS32\MyTask .c(253): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c(262): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c(265): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c(260): warning:  #177-D: variable "pub" was declared but never referenced
+OS32\MyTask .c(261): warning:  #177-D: variable "ulHighPri" was declared but never referenced
+OS32\MyTask .c(275): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c(278): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c(284): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c(272): warning:  #177-D: variable "pub" was declared but never referenced
+OS32\MyTask .c(273): warning:  #177-D: variable "ulHighPri" was declared but never referenced
+OS32\MyTask .c(292): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c(294): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c(303): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c(306): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c(312): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c(314): warning:  #223-D: function "IE_vGeneratePendSV" declared implicitly
+OS32\MyTask .c(315): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c(36): warning:  #177-D: function "_vTaskSleep" was declared but never referenced
+compiling OS004_Sleep.c...
+OS32\OSType.h(97): warning:  #1-D: last line of file ends without a newline
+".\obj\san_wei.axf" - 3 Errors, 150 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling monitoring.c...
+.\OS32\OSType.h(97): warning:  #1-D: last line of file ends without a newline
+app\monitoring.c(23): error:  #20: identifier "stAd7606" is undefined
+app\monitoring.c(30): warning:  #940-D: missing return statement at end of non-void function "Sample_Chanal"
+app\monitoring.c(14): warning:  #177-D: variable "j" was declared but never referenced
+app\monitoring.c(42): error:  #20: identifier "stAd7606" is undefined
+app\monitoring.c(54): warning:  #177-D: variable "i" was declared but never referenced
+app\monitoring.c(59): warning:  #177-D: variable "syFlagIE" was declared but never referenced
+app\monitoring.c(90): error:  #20: identifier "stAd7606" is undefined
+".\obj\san_wei.axf" - 3 Errors, 5 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling monitoring.c...
+.\OS32\OSType.h(97): warning:  #1-D: last line of file ends without a newline
+app\monitoring.c(30): warning:  #940-D: missing return statement at end of non-void function "Sample_Chanal"
+app\monitoring.c(14): warning:  #177-D: variable "j" was declared but never referenced
+app\monitoring.c(54): warning:  #177-D: variable "i" was declared but never referenced
+app\monitoring.c(59): warning:  #177-D: variable "syFlagIE" was declared but never referenced
+compiling DriverSystick.c...
+.\STM32F10x_FWLib\src\stm32f10x_systick.h(38): warning:  #47-D: incompatible redefinition of macro "SysTick_CLKSource_HCLK" (declared at line 173 of ".\STM32F10x_FWLib\inc\misc.h")
+driver\DriverSystick.h(7): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=18778 RO-data=1458 RW-data=2220 ZI-data=1740  
+".\obj\san_wei.axf" - 0 Errors, 8 Warning(s).
+Build target 'Target 1'
+compiling monitoring.c...
+.\OS32\OSType.h(97): warning:  #1-D: last line of file ends without a newline
+app\monitoring.c(30): warning:  #940-D: missing return statement at end of non-void function "Sample_Chanal"
+app\monitoring.c(14): warning:  #177-D: variable "j" was declared but never referenced
+app\monitoring.c(64): error:  #20: identifier "stAd7606" is undefined
+app\monitoring.c(59): warning:  #177-D: variable "syFlagIE" was declared but never referenced
+".\obj\san_wei.axf" - 1 Errors, 4 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling monitoring.c...
+.\OS32\OSType.h(97): warning:  #1-D: last line of file ends without a newline
+app\monitoring.c(30): warning:  #940-D: missing return statement at end of non-void function "Sample_Chanal"
+app\monitoring.c(14): warning:  #177-D: variable "j" was declared but never referenced
+app\monitoring.c(64): error:  #20: identifier "stAd7606" is undefined
+app\monitoring.c(59): warning:  #177-D: variable "syFlagIE" was declared but never referenced
+compiling DriverSystick.c...
+.\STM32F10x_FWLib\src\stm32f10x_systick.h(38): warning:  #47-D: incompatible redefinition of macro "SysTick_CLKSource_HCLK" (declared at line 173 of ".\STM32F10x_FWLib\inc\misc.h")
+driver\DriverSystick.h(7): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+compiling AD7606.c...
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+HARDWARE\AD7606\AD7606.c(75): warning:  #177-D: variable "i" was declared but never referenced
+HARDWARE\AD7606\AD7606.c(77): warning:  #177-D: variable "ulTem1" was declared but never referenced
+".\obj\san_wei.axf" - 1 Errors, 11 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling monitoring.c...
+.\OS32\OSType.h(97): warning:  #1-D: last line of file ends without a newline
+app\monitoring.c(31): warning:  #940-D: missing return statement at end of non-void function "Sample_Chanal"
+app\monitoring.c(15): warning:  #177-D: variable "j" was declared but never referenced
+app\monitoring.c(60): warning:  #177-D: variable "syFlagIE" was declared but never referenced
+linking...
+Program Size: Code=18778 RO-data=1458 RW-data=2220 ZI-data=1740  
+".\obj\san_wei.axf" - 0 Errors, 4 Warning(s).
+Build target 'Target 1'
+compiling monitoring.c...
+.\OS32\OSType.h(97): warning:  #1-D: last line of file ends without a newline
+app\monitoring.c(31): warning:  #940-D: missing return statement at end of non-void function "Sample_Chanal"
+app\monitoring.c(15): warning:  #177-D: variable "j" was declared but never referenced
+app\monitoring.c(60): warning:  #177-D: variable "syFlagIE" was declared but never referenced
+linking...
+Program Size: Code=18778 RO-data=1458 RW-data=2220 ZI-data=1740  
+".\obj\san_wei.axf" - 0 Errors, 4 Warning(s).
+Build target 'Target 1'
+compiling monitoring.c...
+.\OS32\OSType.h(97): warning:  #1-D: last line of file ends without a newline
+app\monitoring.c(31): warning:  #940-D: missing return statement at end of non-void function "Sample_Chanal"
+app\monitoring.c(15): warning:  #177-D: variable "j" was declared but never referenced
+app\monitoring.c(60): warning:  #177-D: variable "syFlagIE" was declared but never referenced
+linking...
+Program Size: Code=18778 RO-data=1458 RW-data=2220 ZI-data=1740  
+".\obj\san_wei.axf" - 0 Errors, 4 Warning(s).
+Build target 'Target 1'
+compiling monitoring.c...
+.\OS32\OSType.h(97): warning:  #1-D: last line of file ends without a newline
+app\monitoring.c(31): warning:  #940-D: missing return statement at end of non-void function "Sample_Chanal"
+app\monitoring.c(15): warning:  #177-D: variable "j" was declared but never referenced
+app\monitoring.c(60): warning:  #177-D: variable "syFlagIE" was declared but never referenced
+linking...
+Program Size: Code=18778 RO-data=1458 RW-data=2220 ZI-data=1740  
+".\obj\san_wei.axf" - 0 Errors, 4 Warning(s).
+Build target 'Target 1'
+compiling AD7606.c...
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+HARDWARE\AD7606\AD7606.c(77): warning:  #177-D: variable "ulTem1" was declared but never referenced
+linking...
+Program Size: Code=18854 RO-data=1458 RW-data=2220 ZI-data=14540  
+".\obj\san_wei.axf" - 0 Errors, 3 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=18854 RO-data=1458 RW-data=2220 ZI-data=14540  
+".\obj\san_wei.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+compiling AD7606.c...
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+HARDWARE\AD7606\AD7606.c(77): warning:  #177-D: variable "ulTem1" was declared but never referenced
+linking...
+Program Size: Code=18854 RO-data=1458 RW-data=2220 ZI-data=14540  
+".\obj\san_wei.axf" - 0 Errors, 3 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=18854 RO-data=1458 RW-data=2220 ZI-data=14540  
+".\obj\san_wei.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+compiling AD7606.c...
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+HARDWARE\AD7606\AD7606.c(77): warning:  #177-D: variable "ulTem1" was declared but never referenced
+linking...
+Program Size: Code=18854 RO-data=1458 RW-data=2220 ZI-data=14540  
+".\obj\san_wei.axf" - 0 Errors, 3 Warning(s).
+Build target 'Target 1'
+compiling AD7606.c...
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+HARDWARE\AD7606\AD7606.c(77): warning:  #177-D: variable "ulTem1" was declared but never referenced
+linking...
+Program Size: Code=18854 RO-data=1458 RW-data=2220 ZI-data=14540  
+".\obj\san_wei.axf" - 0 Errors, 3 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=18854 RO-data=1458 RW-data=2220 ZI-data=14540  
+".\obj\san_wei.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+.\STM32F10x_FWLib\src\stm32f10x_systick.h(38): warning:  #47-D: incompatible redefinition of macro "SysTick_CLKSource_HCLK" (declared at line 173 of ".\STM32F10x_FWLib\inc\misc.h")
+.\driver\DriverSystick.h(7): warning:  #1-D: last line of file ends without a newline
+.\OS32\OSType.h(97): warning:  #1-D: last line of file ends without a newline
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+app\led.h(6): warning:  #1-D: last line of file ends without a newline
+app\main.c(42): warning:  #223-D: function "IE_syDisable" declared implicitly
+app\main.c(49): warning:  #223-D: function "EXTI_DeInit" declared implicitly
+app\main.c(50): warning:  #223-D: function "test_NSS" declared implicitly
+app\main.c(54): warning:  #223-D: function "AD7545_Init" declared implicitly
+app\main.c(55): warning:  #223-D: function "PGA204Init" declared implicitly
+app\main.c(56): warning:  #223-D: function "AD7606_Init" declared implicitly
+app\main.c(57): warning:  #223-D: function "MachineFaultInit" declared implicitly
+app\main.c(59): warning:  #223-D: function "AG320240_Init" declared implicitly
+app\main.c(61): warning:  #223-D: function "delay" declared implicitly
+app\main.c(63): warning:  #223-D: function "screen1" declared implicitly
+app\main.c(66): warning:  #223-D: function "screen2" declared implicitly
+app\main.c(68): warning:  #223-D: function "IE_vSet" declared implicitly
+app\main.c(81): warning:  #223-D: function "AD7606_Handle" declared implicitly
+app\main.c(82): warning:  #223-D: function "test_gui" declared implicitly
+app\main.c(85): warning:  #223-D: function "sprintf" declared implicitly
+app\main.c(86): warning:  #223-D: function "chdisp" declared implicitly
+app\main.c(89): warning:  #223-D: function "Sample_ch4" declared implicitly
+linking...
+Program Size: Code=24526 RO-data=1746 RW-data=2240 ZI-data=14560  
+".\obj\san_wei.axf" - 0 Errors, 22 Warning(s).
+Load "E:\\xutiefeng\\SoftwareV01\\obj\\san_wei.axf" 
+Set JLink Project File to "E:\xutiefeng\SoftwareV01\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.293V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling DriverEXTLine.c...
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+driver\DriverEXTLine.h(13): warning:  #1-D: last line of file ends without a newline
+driver\DriverSPI.h(28): warning:  #1-D: last line of file ends without a newline
+driver\DriverEXTLine.c(8): warning:  #177-D: variable "uba1" was declared but never referenced
+driver\DriverEXTLine.c(8): warning:  #177-D: variable "uba2" was declared but never referenced
+driver\DriverEXTLine.c(108): warning:  #520-D: initialization with "{...}" expected for aggregate object
+driver\DriverEXTLine.c(115): warning:  #174-D: expression has no effect
+driver\DriverEXTLine.c(115): error:  #65: expected a ";"
+driver\DriverEXTLine.c(116): error:  #268: declaration may not appear after executable statement in block
+driver\DriverEXTLine.c(116): warning:  #177-D: variable "i" was declared but never referenced
+".\obj\san_wei.axf" - 2 Errors, 8 Warning(s).
+Target not created
+Load "E:\\xutiefeng\\SoftwareV01\\obj\\san_wei.axf" 
+Set JLink Project File to "E:\xutiefeng\SoftwareV01\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.384V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Failed!
+Build target 'Target 1'
+compiling DriverEXTLine.c...
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+driver\DriverEXTLine.h(13): warning:  #1-D: last line of file ends without a newline
+driver\DriverSPI.h(28): warning:  #1-D: last line of file ends without a newline
+driver\DriverEXTLine.c(8): warning:  #177-D: variable "uba1" was declared but never referenced
+driver\DriverEXTLine.c(8): warning:  #177-D: variable "uba2" was declared but never referenced
+driver\DriverEXTLine.c(108): warning:  #520-D: initialization with "{...}" expected for aggregate object
+driver\DriverEXTLine.c(115): warning:  #174-D: expression has no effect
+driver\DriverEXTLine.c(115): error:  #65: expected a ";"
+driver\DriverEXTLine.c(116): error:  #268: declaration may not appear after executable statement in block
+driver\DriverEXTLine.c(116): warning:  #177-D: variable "i" was declared but never referenced
+".\obj\san_wei.axf" - 2 Errors, 8 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling DriverEXTLine.c...
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+driver\DriverEXTLine.h(13): warning:  #1-D: last line of file ends without a newline
+driver\DriverSPI.h(28): warning:  #1-D: last line of file ends without a newline
+driver\DriverEXTLine.c(8): warning:  #177-D: variable "uba1" was declared but never referenced
+driver\DriverEXTLine.c(8): warning:  #177-D: variable "uba2" was declared but never referenced
+driver\DriverEXTLine.c(108): warning:  #520-D: initialization with "{...}" expected for aggregate object
+driver\DriverEXTLine.c(115): warning:  #177-D: variable "statue" was declared but never referenced
+driver\DriverEXTLine.c(116): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+Program Size: Code=24522 RO-data=1750 RW-data=2240 ZI-data=14560  
+".\obj\san_wei.axf" - 0 Errors, 8 Warning(s).
+Load "E:\\xutiefeng\\SoftwareV01\\obj\\san_wei.axf" 
+Set JLink Project File to "E:\xutiefeng\SoftwareV01\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.280V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling DriverEXTLine.c...
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+driver\DriverEXTLine.h(13): warning:  #1-D: last line of file ends without a newline
+driver\DriverSPI.h(28): warning:  #1-D: last line of file ends without a newline
+driver\DriverEXTLine.c(8): warning:  #177-D: variable "uba1" was declared but never referenced
+driver\DriverEXTLine.c(8): warning:  #177-D: variable "uba2" was declared but never referenced
+driver\DriverEXTLine.c(108): warning:  #520-D: initialization with "{...}" expected for aggregate object
+driver\DriverEXTLine.c(115): warning:  #177-D: variable "statue" was declared but never referenced
+driver\DriverEXTLine.c(116): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+Program Size: Code=24526 RO-data=1746 RW-data=2240 ZI-data=14560  
+".\obj\san_wei.axf" - 0 Errors, 8 Warning(s).
+Load "E:\\xutiefeng\\SoftwareV01\\obj\\san_wei.axf" 
+Set JLink Project File to "E:\xutiefeng\SoftwareV01\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 2.853V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling AD7606.c...
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+HARDWARE\AD7606\AD7606.c(77): warning:  #177-D: variable "ulTem1" was declared but never referenced
+linking...
+Program Size: Code=24526 RO-data=1746 RW-data=2240 ZI-data=14560  
+".\obj\san_wei.axf" - 0 Errors, 3 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=24526 RO-data=1746 RW-data=2240 ZI-data=14560  
+".\obj\san_wei.axf" - 0 Errors, 0 Warning(s).
+Load "E:\\xutiefeng\\SoftwareV01\\obj\\san_wei.axf" 
+Build target 'Target 1'
+linking...
+Program Size: Code=24526 RO-data=1746 RW-data=2240 ZI-data=14560  
+".\obj\san_wei.axf" - 0 Errors, 0 Warning(s).
+Load "E:\\xutiefeng\\SoftwareV01\\obj\\san_wei.axf" 
+Build target 'Target 1'
+linking...
+Program Size: Code=24526 RO-data=1746 RW-data=2240 ZI-data=14560  
+".\obj\san_wei.axf" - 0 Errors, 0 Warning(s).
+Load "E:\\xutiefeng\\SoftwareV01\\obj\\san_wei.axf" 
+Load "E:\\xutiefeng\\SoftwareV01\\obj\\san_wei.axf" 
+Set JLink Project File to "E:\xutiefeng\SoftwareV01\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.287V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling DriverEXTLine.c...
+.\OS32\ostype.h(97): warning:  #1-D: last line of file ends without a newline
+driver\DriverEXTLine.h(13): warning:  #1-D: last line of file ends without a newline
+driver\DriverSPI.h(28): warning:  #1-D: last line of file ends without a newline
+driver\DriverEXTLine.c(8): warning:  #177-D: variable "uba1" was declared but never referenced
+driver\DriverEXTLine.c(8): warning:  #177-D: variable "uba2" was declared but never referenced
+driver\DriverEXTLine.c(108): warning:  #520-D: initialization with "{...}" expected for aggregate object
+driver\DriverEXTLine.c(115): warning:  #177-D: variable "statue" was declared but never referenced
+driver\DriverEXTLine.c(116): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+Program Size: Code=24514 RO-data=1750 RW-data=2240 ZI-data=14560  
+".\obj\san_wei.axf" - 0 Errors, 8 Warning(s).
+Load "E:\\xutiefeng\\SoftwareV01\\obj\\san_wei.axf" 
+Set JLink Project File to "E:\xutiefeng\SoftwareV01\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.235V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+linking...
+Program Size: Code=24514 RO-data=1750 RW-data=2240 ZI-data=14560  
+".\obj\san_wei.axf" - 0 Errors, 0 Warning(s).
+Load "E:\\xutiefeng\\SoftwareV01\\obj\\san_wei.axf" 
+Set JLink Project File to "E:\xutiefeng\SoftwareV01\JLinkSettings.ini"
+* JLink Info: Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.68a, compiled Apr 12 2013 13:26:50
+Firmware: J-Link ARM V8 compiled Jan 31 2018 18:34:52
+Hardware: V8.00
+S/N : 20080643 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+ 
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+ 
+Target info:
+------------
+Device: STM32F103ZE
+VTarget = 3.287V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 0, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+linking...
+Program Size: Code=24514 RO-data=1750 RW-data=2240 ZI-data=14560  
+".\obj\san_wei.axf" - 0 Errors, 0 Warning(s).

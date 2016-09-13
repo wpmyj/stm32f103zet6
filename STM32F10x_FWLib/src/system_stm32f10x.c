@@ -990,6 +990,8 @@ static void SetSysClockTo72(void)
   
   /* SYSCLK, HCLK, PCLK2 and PCLK1 configuration ---------------------------*/    
   /* Enable HSE */    
+	
+	#if 1///////////////////////////////////////////////////////////////////////////////////
   RCC->CR |= ((uint32_t)RCC_CR_HSEON);
  
   /* Wait till HSE is ready and if Time out is reached exit */
@@ -1007,8 +1009,8 @@ static void SetSysClockTo72(void)
   {
     HSEStatus = (uint32_t)0x00;
   }  
-
-  if (HSEStatus == (uint32_t)0x01)
+  #endif
+  if (HSEStatus == (uint32_t)0x01)/////////////////
   {
     /* Enable Prefetch Buffer */
     FLASH->ACR |= FLASH_ACR_PRFTBE;
@@ -1062,6 +1064,7 @@ static void SetSysClockTo72(void)
     /* Wait till PLL is ready */
     while((RCC->CR & RCC_CR_PLLRDY) == 0)
     {
+			
     }
     
     /* Select PLL as system clock source */

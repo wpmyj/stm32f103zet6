@@ -17,6 +17,14 @@
 
 #define F32 float
 
+#define AD7545_1 (0x010 << 1)
+#define AD7545_2 (0x020 << 1)
+#define AD7545_3 (0x030 << 1)
+#define AD7545_4 (0x040 << 1)
+#define AD7545_5 (0x050 << 1)
+#define AD7545_6 (0x060 << 1)
+#define AD7545_7 (0x070 << 1)
+
 
 
 typedef struct
@@ -34,24 +42,51 @@ typedef struct
 
 typedef struct
 {
+	short  	ch0[SAMPLE_RATE];
+	short  	ch1[SAMPLE_RATE];
+	short  	ch2[SAMPLE_RATE];
+	short  	ch3[SAMPLE_RATE];
+	short  	ch4[SAMPLE_RATE];
 	short  	ch6[SAMPLE_RATE];
 	short  	ch5[SAMPLE_RATE];
+	short  	ch7[SAMPLE_RATE];
 }AD7606_INFO;
+
+typedef struct 
+{
+    u16 Chanal[SAMPLE_RATE];
+}CH_INFO;
+
+typedef struct 
+{
+	   CH_INFO ch1;
+	   CH_INFO ch2;
+	   CH_INFO ch3;
+	   CH_INFO ch4;
+	   CH_INFO ch5;
+	   CH_INFO ch6;
+	   CH_INFO ch7;
+	   CH_INFO ch8;
+}AD7606_DATA_INFO;
 
  typedef struct
  {
  	  u8  tem1;
 	  u8  ubUsartCount;
-	  u8  tabUsartValue[8];
+	  
+	 
+	  u8  tabUsartValue[8];	 
+	  u16  ad7606Count;    
 	  u16 uitem1; 
 	  u16 uitem2; 
-	  signed short tubAD_Value[16];
+	  signed short tubAD_Value[8];
 	  float fADValue;
 	  float fADValue3;
 	  float fADValue4;
 	  float fADValue6;
+	  float fADValue7;
 	  float fADValue4Compensation;
-	  TMailBox * tMailBox;
+	  //TMailBox * tMailBox;
 
  }ST_Value;
  
