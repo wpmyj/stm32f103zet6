@@ -712,7 +712,7 @@ void WriteCommandRA8835P(u16 CmdData)
     RA8835P_CS(0);
 	SomeNopRA8835P();
 
-    GPIOB->BSRR = 0x00070000 | ( CmdData );//RA8835P_Bus = (u16)CmdData & 0X0FF;
+    GPIOB->BSRR = 0x00070000 | ( CmdData & 0x03);//RA8835P_Bus = (u16)CmdData & 0X0FF;
 
 	v1 = CmdData << 8;
 
@@ -774,7 +774,7 @@ void WriteDataRA8835P(u16 Data)
     RA8835P_CS(0);
 						    
 	SomeNopRA8835P();
-    GPIOB->BSRR = 0x00070000 | ( Data );// RA8835P_Bus = Data & 0X0FF;
+    GPIOB->BSRR = 0x00070000 | ( Data & 0x03);// RA8835P_Bus = Data & 0X0FF;
 	v1 = Data << 8;
 
 	if(v1 & 0x0800)

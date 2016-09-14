@@ -9,6 +9,7 @@
 
  void testClockInit(void);
  void Sample_ch6(void);
+ void relay_test(void);
  #define VER_0 1
 
 #define AG320240
@@ -57,7 +58,7 @@ int main()
 	MachineFaultInit();
 #ifdef AG320240
 	AG320240_Init();
-	
+	relay_test();
 	delay(60000);
 	delay(60000);
 	screen1();

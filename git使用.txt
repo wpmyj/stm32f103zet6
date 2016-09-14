@@ -1,0 +1,21 @@
+git add
+添加所有文件
+
+$ git init
+
+$ git add .
+
+$ git commit -m"init"
+
+$ git remote add origin https://github.com/xutiefeng/total_project.git
+
+$ git push -u origin master
+
+$ vim .git/config
+
+
+$  git clone
+
+$ git pull
+
+

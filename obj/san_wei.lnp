@@ -5,6 +5,7 @@
 ".\obj\delay.o"
 ".\obj\powermachinefault.o"
 ".\obj\monitoring.o"
+".\obj\relay.o"
 ".\obj\driverit.o"
 ".\obj\driversystick.o"
 ".\obj\ad.o"

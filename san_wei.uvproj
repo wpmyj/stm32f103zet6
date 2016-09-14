@@ -427,6 +427,11 @@
               <FileType>1</FileType>
               <FilePath>.\app\monitoring.c</FilePath>
             </File>
+            <File>
+              <FileName>relay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\app\relay.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
