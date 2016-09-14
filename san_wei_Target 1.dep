@@ -1,381 +1,381 @@
 Dependencies for Project 'san_wei', Target 'Target 1': (DO NOT MODIFY !)
-F (.\config\config.c)(0x57504DE0)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\config.o --omf_browse .\obj\config.crf --depend .\obj\config.d)
-I (E:\xutiefeng\SoftwareV01\config\Project.h)(0x573EAC9E)
-I (E:\xutiefeng\SoftwareV01\config\testConfig.h)(0x575D80FA)
-F (.\CM3\startup_stm32f10x_hd.s)(0x57D3CA20)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x--list .\startup_stm32f10x_hd.lst --xref -o .\obj\startup_stm32f10x_hd.o --depend .\obj\startup_stm32f10x_hd.d)
-F (.\app\main.c)(0x57D757D2)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
-I (E:\xutiefeng\SoftwareV01\driver\DriverSystick.h)(0x577B039C)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\src\stm32f10x_systick.h)(0x5746A00A)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\OS32\OS003_CPU.h)(0x57D3BA66)
-I (E:\xutiefeng\SoftwareV01\OS32\OSType.h)(0x57D76CD1)
-I (E:\xutiefeng\SoftwareV01\app\monitoring.h)(0x57D37DDA)
-I (E:\xutiefeng\SoftwareV01\app\DA7545.h)(0x5754E6DC)
-I (E:\xutiefeng\SoftwareV01\driver\DriverUsart4.h)(0x577A9758)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x575D1730)
-I (E:\xutiefeng\SoftwareV01\driver\PGA204.h)(0x5764AA40)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\driver\DeviceFsmc.h)(0x57CD1F85)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
-I (E:\xutiefeng\SoftwareV01\app\led.h)(0x57D3E140)
-F (.\app\delay.c)(0x5764FA0C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\delay.o --omf_browse .\obj\delay.crf --depend .\obj\delay.d)
-I (E:\xutiefeng\SoftwareV01\app\delay.h)(0x5746A2F0)
-I (E:\xutiefeng\SoftwareV01\system\sys.h)(0x57CCE4D2)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (.\app\PowerMachineFault.c)(0x57D37A9E)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\powermachinefault.o --omf_browse .\obj\powermachinefault.crf --depend .\obj\powermachinefault.d)
-I (E:\xutiefeng\SoftwareV01\app\PowerMachineFault.h)(0x57720810)
-I (E:\xutiefeng\SoftwareV01\driver\DriverEXTLine.h)(0x577612DA)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x577652A6)
-I (E:\xutiefeng\SoftwareV01\OS32\ostype.h)(0x57D76CD1)
-I (E:\xutiefeng\SoftwareV01\app\monitoring.h)(0x57D37DDA)
-F (.\app\monitoring.c)(0x57D76DC3)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\monitoring.o --omf_browse .\obj\monitoring.crf --depend .\obj\monitoring.d)
-I (E:\xutiefeng\SoftwareV01\app\monitoring.h)(0x57D37DDA)
-I (E:\xutiefeng\SoftwareV01\OS32\OSType.h)(0x57D76CD1)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\OS32\OS003_CPU.h)(0x57D3BA66)
-F (.\driver\DriverIt.c)(0x577B035A)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\driverit.o --omf_browse .\obj\driverit.crf --depend .\obj\driverit.d)
-I (E:\xutiefeng\SoftwareV01\driver\DriverIt.h)(0x573EADB8)
-I (E:\xutiefeng\SoftwareV01\OS32\OSType.h)(0x57D76CD1)
-I (E:\xutiefeng\SoftwareV01\app\monitoring.h)(0x57D37DDA)
-F (.\driver\DriverSystick.c)(0x57D3B084)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\driversystick.o --omf_browse .\obj\driversystick.crf --depend .\obj\driversystick.d)
-I (E:\xutiefeng\SoftwareV01\driver\DriverSystick.h)(0x577B039C)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\src\stm32f10x_systick.h)(0x5746A00A)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\OS32\ostype.h)(0x57D76CD1)
-I (E:\xutiefeng\SoftwareV01\app\monitoring.h)(0x57D37DDA)
-I (E:\xutiefeng\SoftwareV01\driver\DriverIt.h)(0x573EADB8)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
-F (.\HARDWARE\AD7606\AD.c)(0x57519826)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\ad.o --omf_browse .\obj\ad.crf --depend .\obj\ad.d)
-I (E:\xutiefeng\SoftwareV01\HARDWARE\AD7606\AD.h)(0x546574A0)
-I (E:\xutiefeng\SoftwareV01\system\sys.h)(0x57CCE4D2)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-F (.\HARDWARE\AD7606\AD7606.c)(0x57D7584B)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\ad7606.o --omf_browse .\obj\ad7606.crf --depend .\obj\ad7606.d)
-I (E:\xutiefeng\SoftwareV01\driver\PGA204.h)(0x5764AA40)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x575D1730)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\HARDWARE\AD7606\AD7606.h)(0x575E4206)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\driver\DriverUsart4.h)(0x577A9758)
-I (E:\xutiefeng\SoftwareV01\OS32\ostype.h)(0x57D76CD1)
-I (E:\xutiefeng\SoftwareV01\app\monitoring.h)(0x57D37DDA)
-F (.\app\1335.C)(0x57C3A3E3)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\1335.o --omf_browse .\obj\1335.crf --depend .\obj\1335.d)
-I (E:\xutiefeng\SoftwareV01\driver\GUI.H)(0x5784C55C)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x577652A6)
-I (E:\xutiefeng\SoftwareV01\OS32\ostype.h)(0x57D76CD1)
-I (E:\xutiefeng\SoftwareV01\app\monitoring.h)(0x57D37DDA)
-I (E:\xutiefeng\SoftwareV01\gui\INC\option.h)(0x5056ED14)
-I (E:\xutiefeng\SoftwareV01\gui\INC\def.h)(0x571B4238)
-I (E:\xutiefeng\SoftwareV01\gui\INC\44b.h)(0x4C91D8BC)
-I (E:\xutiefeng\SoftwareV01\gui\INC\44blib.h)(0x501894F4)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\app\SED1335.h)(0x5769E8AE)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x575D1730)
-I (E:\xutiefeng\SoftwareV01\driver\DriverUsart4.h)(0x577A9758)
-I (E:\xutiefeng\SoftwareV01\driver\DriverSPI.h)(0x57773038)
-F (.\app\DA7545.C)(0x5764AC74)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\da7545.o --omf_browse .\obj\da7545.crf --depend .\obj\da7545.d)
-I (E:\xutiefeng\SoftwareV01\app\DA7545.h)(0x5754E6DC)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
-F (.\driver\DriverUsart4.c)(0x578D855A)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\driverusart4.o --omf_browse .\obj\driverusart4.crf --depend .\obj\driverusart4.d)
-I (E:\xutiefeng\SoftwareV01\driver\DriverUsart4.h)(0x577A9758)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x575D1730)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-I (E:\xutiefeng\SoftwareV01\OS32\ostype.h)(0x57D76CD1)
-I (E:\xutiefeng\SoftwareV01\app\monitoring.h)(0x57D37DDA)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
-F (.\driver\PGA204.c)(0x57CEA440)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\pga204.o --omf_browse .\obj\pga204.crf --depend .\obj\pga204.d)
-I (E:\xutiefeng\SoftwareV01\driver\PGA204.h)(0x5764AA40)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x575D1730)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
-F (.\driver\DriverSPI.c)(0x57775184)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\driverspi.o --omf_browse .\obj\driverspi.crf --depend .\obj\driverspi.d)
-I (E:\xutiefeng\SoftwareV01\driver\DriverSPI.h)(0x57773038)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x575D1730)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x577652A6)
-F (.\driver\DriverEXTLine.c)(0x57D7598C)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\driverextline.o --omf_browse .\obj\driverextline.crf --depend .\obj\driverextline.d)
-I (E:\xutiefeng\SoftwareV01\driver\DriverEXTLine.h)(0x577612DA)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x577652A6)
-I (E:\xutiefeng\SoftwareV01\OS32\ostype.h)(0x57D76CD1)
-I (E:\xutiefeng\SoftwareV01\app\monitoring.h)(0x57D37DDA)
-I (E:\xutiefeng\SoftwareV01\app\DA7545.h)(0x5754E6DC)
-I (E:\xutiefeng\SoftwareV01\driver\DriverSPI.h)(0x57773038)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x575D1730)
-F (.\driver\gui.c)(0x57878B90)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\gui.o --omf_browse .\obj\gui.crf --depend .\obj\gui.d)
-I (E:\xutiefeng\SoftwareV01\driver\gui.h)(0x5784C55C)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x577652A6)
-I (E:\xutiefeng\SoftwareV01\OS32\ostype.h)(0x57D76CD1)
-I (E:\xutiefeng\SoftwareV01\app\monitoring.h)(0x57D37DDA)
-F (.\driver\DeviceFsmc.c)(0x57CE93B0)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\devicefsmc.o --omf_browse .\obj\devicefsmc.crf --depend .\obj\devicefsmc.d)
-I (E:\xutiefeng\SoftwareV01\driver\DeviceFsmc.h)(0x57CD1F85)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\src\stm32f10x_systick.h)(0x5746A00A)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (.\app\led.c)(0x57D3E114)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\led.o --omf_browse .\obj\led.crf --depend .\obj\led.d)
-I (E:\xutiefeng\SoftwareV01\app\led.h)(0x57D3E140)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-F (.\CM3\CPU.S)(0x5769DCA8)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x--list .\cpu.lst --xref -o .\obj\cpu.o --depend .\obj\cpu.d)
-F (.\OS32\MyTask .c)(0x575D3F0E)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\mytask .o" --omf_browse ".\obj\mytask .crf" --depend ".\obj\mytask .d")
-I (E:\xutiefeng\SoftwareV01\OS32\OS001_Task.h)(0x574D24BC)
-I (E:\xutiefeng\SoftwareV01\OS32\OSType.h)(0x57D76CD1)
-I (E:\xutiefeng\SoftwareV01\app\monitoring.h)(0x57D37DDA)
-I (E:\xutiefeng\SoftwareV01\OS32\OS003_CPU.h)(0x57D3BA66)
-I (E:\xutiefeng\SoftwareV01\app\DA7545.h)(0x5754E6DC)
-F (.\CM3\core_cm3.c)(0x57691170)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\core_cm3.o --omf_browse .\obj\core_cm3.crf --depend .\obj\core_cm3.d)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-F (.\OS32\OS004_Sleep.c)(0x576B9D6A)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\os004_sleep.o --omf_browse .\obj\os004_sleep.crf --depend .\obj\os004_sleep.d)
-I (E:\xutiefeng\SoftwareV01\OS32\OSType.h)(0x57D76CD1)
-I (E:\xutiefeng\SoftwareV01\app\monitoring.h)(0x57D37DDA)
-I (E:\xutiefeng\SoftwareV01\OS32\OS004_Sleep.h)(0x508DDF72)
-I (E:\xutiefeng\SoftwareV01\OS32\OS001_Task.h)(0x574D24BC)
-I (E:\xutiefeng\SoftwareV01\OS32\OS005_Mutex.h)(0x508DDF72)
-F (.\STM32F10x_FWLib\src\stm32f10x_tim.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\stm32f10x_tim.o --omf_browse .\obj\stm32f10x_tim.crf --depend .\obj\stm32f10x_tim.d)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-F (.\STM32F10x_FWLib\src\stm32f10x_systick.c)(0x575CF284)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\stm32f10x_systick.o --omf_browse .\obj\stm32f10x_systick.crf --depend .\obj\stm32f10x_systick.d)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\src\stm32f10x_systick.h)(0x5746A00A)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-F (.\STM32F10x_FWLib\src\stm32f10x_adc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\stm32f10x_adc.o --omf_browse .\obj\stm32f10x_adc.crf --depend .\obj\stm32f10x_adc.d)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-F (.\STM32F10x_FWLib\src\stm32f10x_dac.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\stm32f10x_dac.o --omf_browse .\obj\stm32f10x_dac.crf --depend .\obj\stm32f10x_dac.d)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-F (.\STM32F10x_FWLib\src\stm32f10x_dma.c)(0x575BCF84)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\stm32f10x_dma.o --omf_browse .\obj\stm32f10x_dma.crf --depend .\obj\stm32f10x_dma.d)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-F (.\STM32F10x_FWLib\src\stm32f10x_exti.c)(0x575C1B2A)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\stm32f10x_exti.o --omf_browse .\obj\stm32f10x_exti.crf --depend .\obj\stm32f10x_exti.d)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-F (.\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x57577D90)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\stm32f10x_rcc.o --omf_browse .\obj\stm32f10x_rcc.crf --depend .\obj\stm32f10x_rcc.d)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-F (.\STM32F10x_FWLib\src\stm32f10x_spi.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\stm32f10x_spi.o --omf_browse .\obj\stm32f10x_spi.crf --depend .\obj\stm32f10x_spi.d)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x577652A6)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-F (.\STM32F10x_FWLib\src\stm32f10x_fsmc.c)(0x5039863E)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\stm32f10x_fsmc.o --omf_browse .\obj\stm32f10x_fsmc.crf --depend .\obj\stm32f10x_fsmc.d)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-F (.\STM32F10x_FWLib\src\stm32f10x_bkp.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\stm32f10x_bkp.o --omf_browse .\obj\stm32f10x_bkp.crf --depend .\obj\stm32f10x_bkp.d)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-F (.\STM32F10x_FWLib\src\system_stm32f10x.c)(0x57D64A72)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\system_stm32f10x.o --omf_browse .\obj\system_stm32f10x.crf --depend .\obj\system_stm32f10x.d)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-F (.\STM32F10x_FWLib\src\misc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\misc.o --omf_browse .\obj\misc.crf --depend .\obj\misc.d)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-F (.\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x5768E8D6)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\stm32f10x_gpio.o --omf_browse .\obj\stm32f10x_gpio.crf --depend .\obj\stm32f10x_gpio.d)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-F (.\STM32F10x_FWLib\src\stm32f10x_usart.c)(0x575CF212)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\stm32f10x_usart.o --omf_browse .\obj\stm32f10x_usart.crf --depend .\obj\stm32f10x_usart.d)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x575D1730)
-I (E:\xutiefeng\SoftwareV01\CM3\stm32f10x.h)(0x575BE0F2)
-I (E:\xutiefeng\SoftwareV01\CM3\core_cm3.h)(0x576165EC)
-I (C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h)(0x3BEB19E6)
-I (E:\xutiefeng\SoftwareV01\CM3\system_stm32f10x.h)(0x4BD10896)
-I (E:\xutiefeng\SoftwareV01\system\stm32f10x_conf.h)(0x574689B0)
-I (E:\xutiefeng\SoftwareV01\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x5754C72C)
-I (E:\xutiefeng\SoftwareV01\config\testconfig.h)(0x575D80FA)
-F (..\sanwei\陈柱任\STM32\STM32\4，程序源码\标准例程\实验57 ucGUI实验\uCGUI\Config\GUIConf.h)(0x00000000)()
-F (..\sanwei\陈柱任\STM32\STM32\4，程序源码\标准例程\实验57 ucGUI实验\uCGUI\Config\GUITouchConf.h)(0x00000000)()
-F (..\sanwei\陈柱任\STM32\STM32\4，程序源码\标准例程\实验57 ucGUI实验\uCGUI\Config\LCDConf.h)(0x00000000)()
-F (.\ucos_ii\my_test\my_test.c)(0x577F5F7A)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test-I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\my_test.o --omf_browse .\obj\my_test.crf --depend .\obj\my_test.d)
-I (E:\xutiefeng\SoftwareV01\ucos_ii\config\ucos_ii.h)(0x577D203C)
-I (E:\xutiefeng\SoftwareV01\ucos_ii\config\os_cfg.h)(0x577D2022)
-I (E:\xutiefeng\SoftwareV01\ucos_ii\PORT\os_cpu.h)(0x577D2024)
-F (.\ucos_ii\PORT\os_cpu_a.asm)(0x577D2760)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I d:\Keil\ARM\RV31\INC-I d:\Keil\ARM\CMSIS\Include-I d:\Keil\ARM\Inc\ST\STM32F10x--list .\os_cpu_a.lst --xref -o .\obj\os_cpu_a.o --depend .\obj\os_cpu_a.d)
+F (.\config\config.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\config.o" --omf_browse ".\obj\config.crf" --depend ".\obj\config.d")
+I (config\Project.h)(0x57D81BFD)
+I (config\testConfig.h)(0x57D81BFD)
+F (.\CM3\startup_stm32f10x_hd.s)(0x57D81BFD)(--cpu Cortex-M3 -g --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" --list ".\startup_stm32f10x_hd.lst" --xref -o ".\obj\startup_stm32f10x_hd.o")
+F (.\app\main.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\main.o" --omf_browse ".\obj\main.crf" --depend ".\obj\main.d")
+I (.\driver\DriverSystick.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\src\stm32f10x_systick.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\OS32\OS003_CPU.h)(0x57D81BFD)
+I (.\OS32\OSType.h)(0x57D82024)
+I (.\app\monitoring.h)(0x57D81BFD)
+I (app\DA7545.h)(0x57D81BFD)
+I (.\driver\DriverUsart4.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x57D81BFD)
+I (.\driver\PGA204.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x57D81BFD)
+I (.\driver\DeviceFsmc.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x57D81BFD)
+I (app\led.h)(0x57D81BFD)
+F (.\app\delay.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\delay.o" --omf_browse ".\obj\delay.crf" --depend ".\obj\delay.d")
+I (app\delay.h)(0x57D81BFD)
+I (.\system\sys.h)(0x57D81BFE)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x57D81BFD)
+F (.\app\PowerMachineFault.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\powermachinefault.o" --omf_browse ".\obj\powermachinefault.crf" --depend ".\obj\powermachinefault.d")
+I (app\PowerMachineFault.h)(0x57D81BFD)
+I (.\driver\DriverEXTLine.h)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x57D81BFD)
+I (.\OS32\ostype.h)(0x57D82024)
+I (.\app\monitoring.h)(0x57D81BFD)
+F (.\app\monitoring.c)(0x57D82DB8)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\monitoring.o" --omf_browse ".\obj\monitoring.crf" --depend ".\obj\monitoring.d")
+I (app\monitoring.h)(0x57D81BFD)
+I (.\OS32\OSType.h)(0x57D82024)
+I (C:\Keil\ARM\RV31\INC\math.h)(0x4BD0408A)
+I (.\OS32\OS003_CPU.h)(0x57D81BFD)
+F (.\driver\DriverIt.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\driverit.o" --omf_browse ".\obj\driverit.crf" --depend ".\obj\driverit.d")
+I (driver\DriverIt.h)(0x57D81BFD)
+I (.\OS32\OSType.h)(0x57D82024)
+I (.\app\monitoring.h)(0x57D81BFD)
+F (.\driver\DriverSystick.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\driversystick.o" --omf_browse ".\obj\driversystick.crf" --depend ".\obj\driversystick.d")
+I (driver\DriverSystick.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\src\stm32f10x_systick.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\OS32\ostype.h)(0x57D82024)
+I (.\app\monitoring.h)(0x57D81BFD)
+I (driver\DriverIt.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x57D81BFD)
+F (.\HARDWARE\AD7606\AD.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\ad.o" --omf_browse ".\obj\ad.crf" --depend ".\obj\ad.d")
+I (HARDWARE\AD7606\AD.h)(0x57D81BFD)
+I (.\system\sys.h)(0x57D81BFE)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+F (.\HARDWARE\AD7606\AD7606.c)(0x57D82024)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\ad7606.o" --omf_browse ".\obj\ad7606.crf" --depend ".\obj\ad7606.d")
+I (.\driver\PGA204.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x57D81BFD)
+I (HARDWARE\AD7606\AD7606.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x57D81BFD)
+I (.\driver\DriverUsart4.h)(0x57D81BFD)
+I (.\OS32\ostype.h)(0x57D82024)
+I (.\app\monitoring.h)(0x57D81BFD)
+F (.\app\1335.C)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\1335.o" --omf_browse ".\obj\1335.crf" --depend ".\obj\1335.d")
+I (.\driver\GUI.H)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x57D81BFD)
+I (.\OS32\ostype.h)(0x57D82024)
+I (.\app\monitoring.h)(0x57D81BFD)
+I (.\gui\INC\option.h)(0x57D81BFE)
+I (.\gui\INC\def.h)(0x57D81BFE)
+I (.\gui\INC\44b.h)(0x57D81BFE)
+I (.\gui\INC\44blib.h)(0x57D81BFE)
+I (C:\Keil\ARM\RV31\INC\math.h)(0x4BD0408A)
+I (app\SED1335.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x57D81BFD)
+I (.\driver\DriverUsart4.h)(0x57D81BFD)
+I (.\driver\DriverSPI.h)(0x57D81BFD)
+F (.\app\DA7545.C)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\da7545.o" --omf_browse ".\obj\da7545.crf" --depend ".\obj\da7545.d")
+I (app\DA7545.h)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x57D81BFD)
+F (.\driver\DriverUsart4.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\driverusart4.o" --omf_browse ".\obj\driverusart4.crf" --depend ".\obj\driverusart4.d")
+I (driver\DriverUsart4.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+I (.\OS32\ostype.h)(0x57D82024)
+I (.\app\monitoring.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdio.h)(0x4BD0408C)
+F (.\driver\PGA204.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\pga204.o" --omf_browse ".\obj\pga204.crf" --depend ".\obj\pga204.d")
+I (driver\PGA204.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x57D81BFD)
+F (.\driver\DriverSPI.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\driverspi.o" --omf_browse ".\obj\driverspi.crf" --depend ".\obj\driverspi.d")
+I (driver\DriverSPI.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x57D81BFD)
+F (.\driver\DriverEXTLine.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\driverextline.o" --omf_browse ".\obj\driverextline.crf" --depend ".\obj\driverextline.d")
+I (driver\DriverEXTLine.h)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x57D81BFD)
+I (.\OS32\ostype.h)(0x57D82024)
+I (.\app\monitoring.h)(0x57D81BFD)
+I (.\app\DA7545.h)(0x57D81BFD)
+I (driver\DriverSPI.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x57D81BFD)
+F (.\driver\gui.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\gui.o" --omf_browse ".\obj\gui.crf" --depend ".\obj\gui.d")
+I (driver\gui.h)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x57D81BFD)
+I (.\OS32\ostype.h)(0x57D82024)
+I (.\app\monitoring.h)(0x57D81BFD)
+F (.\driver\DeviceFsmc.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\devicefsmc.o" --omf_browse ".\obj\devicefsmc.crf" --depend ".\obj\devicefsmc.d")
+I (driver\DeviceFsmc.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\src\stm32f10x_systick.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x57D81BFD)
+F (.\app\led.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\led.o" --omf_browse ".\obj\led.crf" --depend ".\obj\led.d")
+I (app\led.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+F (.\CM3\CPU.S)(0x57D81BFD)(--cpu Cortex-M3 -g --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" --list ".\CPU.lst" --xref -o ".\obj\CPU.o")
+F (.\OS32\MyTask .c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\mytask .o" --omf_browse ".\obj\mytask .crf" --depend ".\obj\mytask .d")
+I (OS32\OS001_Task.h)(0x57D81BFD)
+I (OS32\OSType.h)(0x57D82024)
+I (.\app\monitoring.h)(0x57D81BFD)
+I (OS32\OS003_CPU.h)(0x57D81BFD)
+I (.\app\DA7545.h)(0x57D81BFD)
+F (.\CM3\core_cm3.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\core_cm3.o" --omf_browse ".\obj\core_cm3.crf" --depend ".\obj\core_cm3.d")
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+F (.\OS32\OS004_Sleep.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\os004_sleep.o" --omf_browse ".\obj\os004_sleep.crf" --depend ".\obj\os004_sleep.d")
+I (OS32\OSType.h)(0x57D82024)
+I (.\app\monitoring.h)(0x57D81BFD)
+I (OS32\OS004_Sleep.h)(0x57D81BFD)
+I (OS32\OS001_Task.h)(0x57D81BFD)
+I (OS32\OS005_Mutex.h)(0x57D81BFD)
+F (.\STM32F10x_FWLib\src\stm32f10x_tim.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\stm32f10x_tim.o" --omf_browse ".\obj\stm32f10x_tim.crf" --depend ".\obj\stm32f10x_tim.d")
+I (.\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+F (.\STM32F10x_FWLib\src\stm32f10x_systick.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\stm32f10x_systick.o" --omf_browse ".\obj\stm32f10x_systick.crf" --depend ".\obj\stm32f10x_systick.d")
+I (STM32F10x_FWLib\src\stm32f10x_systick.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+I (.\STM32F10x_FWLib\inc\misc.h)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+F (.\STM32F10x_FWLib\src\stm32f10x_adc.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\stm32f10x_adc.o" --omf_browse ".\obj\stm32f10x_adc.crf" --depend ".\obj\stm32f10x_adc.d")
+I (.\STM32F10x_FWLib\inc\stm32f10x_adc.h)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+F (.\STM32F10x_FWLib\src\stm32f10x_dac.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\stm32f10x_dac.o" --omf_browse ".\obj\stm32f10x_dac.crf" --depend ".\obj\stm32f10x_dac.d")
+I (.\STM32F10x_FWLib\inc\stm32f10x_dac.h)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+F (.\STM32F10x_FWLib\src\stm32f10x_dma.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\stm32f10x_dma.o" --omf_browse ".\obj\stm32f10x_dma.crf" --depend ".\obj\stm32f10x_dma.d")
+I (.\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+F (.\STM32F10x_FWLib\src\stm32f10x_exti.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\stm32f10x_exti.o" --omf_browse ".\obj\stm32f10x_exti.crf" --depend ".\obj\stm32f10x_exti.d")
+I (.\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+F (.\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\stm32f10x_rcc.o" --omf_browse ".\obj\stm32f10x_rcc.crf" --depend ".\obj\stm32f10x_rcc.d")
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+F (.\STM32F10x_FWLib\src\stm32f10x_spi.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\stm32f10x_spi.o" --omf_browse ".\obj\stm32f10x_spi.crf" --depend ".\obj\stm32f10x_spi.d")
+I (.\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+F (.\STM32F10x_FWLib\src\stm32f10x_fsmc.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\stm32f10x_fsmc.o" --omf_browse ".\obj\stm32f10x_fsmc.crf" --depend ".\obj\stm32f10x_fsmc.d")
+I (.\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+F (.\STM32F10x_FWLib\src\stm32f10x_bkp.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\stm32f10x_bkp.o" --omf_browse ".\obj\stm32f10x_bkp.crf" --depend ".\obj\stm32f10x_bkp.d")
+I (.\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+F (.\STM32F10x_FWLib\src\system_stm32f10x.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\system_stm32f10x.o" --omf_browse ".\obj\system_stm32f10x.crf" --depend ".\obj\system_stm32f10x.d")
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+F (.\STM32F10x_FWLib\src\misc.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\misc.o" --omf_browse ".\obj\misc.crf" --depend ".\obj\misc.d")
+I (.\STM32F10x_FWLib\inc\misc.h)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+F (.\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\stm32f10x_gpio.o" --omf_browse ".\obj\stm32f10x_gpio.crf" --depend ".\obj\stm32f10x_gpio.d")
+I (.\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+F (.\STM32F10x_FWLib\src\stm32f10x_usart.c)(0x57D81BFD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\stm32f10x_usart.o" --omf_browse ".\obj\stm32f10x_usart.crf" --depend ".\obj\stm32f10x_usart.d")
+I (.\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x57D81BFD)
+I (.\CM3\stm32f10x.h)(0x57D81BFD)
+I (.\CM3\core_cm3.h)(0x57D81BFD)
+I (C:\Keil\ARM\RV31\INC\stdint.h)(0x5761FBD6)
+I (.\CM3\system_stm32f10x.h)(0x57D81BFD)
+I (.\system\stm32f10x_conf.h)(0x57D81BFE)
+I (.\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x57D81BFD)
+I (.\config\testconfig.h)(0x57D81BFD)
+F (..\sanwei\陈柱任\STM32\STM32\4，程序源码\标准例程\实验57 ucGUI实验\uCGUI\Config\GUIConf.h)(0x57634CDD)()
+F (..\sanwei\陈柱任\STM32\STM32\4，程序源码\标准例程\实验57 ucGUI实验\uCGUI\Config\GUITouchConf.h)(0x50291858)()
+F (..\sanwei\陈柱任\STM32\STM32\4，程序源码\标准例程\实验57 ucGUI实验\uCGUI\Config\LCDConf.h)(0x57679C23)()
+F (.\ucos_ii\my_test\my_test.c)(0x57D81BFE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\app -I.\CM3 -I.\driver -I.\STM32F10x_FWLib\src -I.\config -I.\OS32 -I.\STM32F10x_FWLib\inc -I.\system -I.\gui\CORE -I.\gui\Config -I.\gui\WM -I.\gui\INC -I.\gui\LCDDriver -I.\gui\Font -I.\gui\MemDev -I.\gui\ConvertMono -I.\HARDWARE\LCD -I.\ucos_ii\config -I.\ucos_ii\PORT -I.\ucos_ii\my_test -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o ".\obj\my_test.o" --omf_browse ".\obj\my_test.crf" --depend ".\obj\my_test.d")
+I (.\ucos_ii\config\ucos_ii.h)(0x57D81BFE)
+I (.\ucos_ii\config\os_cfg.h)(0x57D81BFE)
+I (.\ucos_ii\PORT\os_cpu.h)(0x57D81BFE)
+F (.\ucos_ii\PORT\os_cpu_a.asm)(0x57D81BFE)(--cpu Cortex-M3 -g --apcs=interwork -I "C:\Keil\ARM\INC" -I "C:\Keil\ARM\INC\ST\STM32F10x" --list ".\os_cpu_a.lst" --xref -o ".\obj\os_cpu_a.o")

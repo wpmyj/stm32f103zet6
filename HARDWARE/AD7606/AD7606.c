@@ -90,10 +90,18 @@ void AD7606_Handle(void)
 	 for(i = 0; i < 8; i++)
 	 {
 	 	   GPIO_ResetBits(GPIOC, 1 << RD_CS);
-  	   g_stVlue.tubAD_Value[i] =  GPIO_ReadInputData(GPIOF);
+  	       g_stVlue.tubAD_Value[i] =  GPIO_ReadInputData(GPIOF);
 		   GPIO_SetBits(GPIOC,1 << RD_CS) ;	
 		   g_stVlue.tubAD_Value[i] =  (signed short)(__RBIT1( g_stVlue.tubAD_Value[i] & 0x0ffff) >> 16);
+
+		   stAd7606.ch0 [g_stVlue.ad7606Count]  = g_stVlue.tubAD_Value[0];
+		   stAd7606.ch1 [g_stVlue.ad7606Count]  = g_stVlue.tubAD_Value[1];
+		   stAd7606.ch2 [g_stVlue.ad7606Count]  = g_stVlue.tubAD_Value[2];
+		   stAd7606.ch3 [g_stVlue.ad7606Count]  = g_stVlue.tubAD_Value[3];
 		   stAd7606.ch4 [g_stVlue.ad7606Count]  = g_stVlue.tubAD_Value[4];
+		   stAd7606.ch5 [g_stVlue.ad7606Count]  = g_stVlue.tubAD_Value[5];
+		   stAd7606.ch6 [g_stVlue.ad7606Count]  = g_stVlue.tubAD_Value[6];
+		   stAd7606.ch7 [g_stVlue.ad7606Count]  = g_stVlue.tubAD_Value[7];
 	 }
 	 
 	 

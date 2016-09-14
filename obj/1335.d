@@ -2,7 +2,7 @@
 .\obj\1335.o: .\driver\GUI.H
 .\obj\1335.o: .\CM3\stm32f10x.h
 .\obj\1335.o: .\CM3\core_cm3.h
-.\obj\1335.o: C:\Program Files\ARM\ADSv1_2\INCLUDE\stdint.h
+.\obj\1335.o: C:\Keil\ARM\RV31\INC\stdint.h
 .\obj\1335.o: .\CM3\system_stm32f10x.h
 .\obj\1335.o: .\system\stm32f10x_conf.h
 .\obj\1335.o: .\STM32F10x_FWLib\inc\stm32f10x_rcc.h
@@ -18,7 +18,7 @@
 .\obj\1335.o: .\gui\INC\def.h
 .\obj\1335.o: .\gui\INC\44b.h
 .\obj\1335.o: .\gui\INC\44blib.h
-.\obj\1335.o: C:\Program Files\ARM\ADSv1_2\INCLUDE\math.h
+.\obj\1335.o: C:\Keil\ARM\RV31\INC\math.h
 .\obj\1335.o: app\SED1335.h
 .\obj\1335.o: .\STM32F10x_FWLib\inc\stm32f10x_usart.h
 .\obj\1335.o: .\driver\DriverUsart4.h
