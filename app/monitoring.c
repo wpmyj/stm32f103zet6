@@ -56,7 +56,7 @@ void  Sample_Chanal(u8 num )
 		  break;
 	}
 
-	if(tub == 0)
+	if(tub == 0)///0914
 	{
 		return;
 	}
