@@ -59,6 +59,7 @@ typedef struct
 
 typedef struct 
 {
+	   CH_INFO ch0;
 	   CH_INFO ch1;
 	   CH_INFO ch2;
 	   CH_INFO ch3;
@@ -66,7 +67,7 @@ typedef struct
 	   CH_INFO ch5;
 	   CH_INFO ch6;
 	   CH_INFO ch7;
-	   CH_INFO ch8;
+	   
 }AD7606_DATA_INFO;
 
  typedef struct
