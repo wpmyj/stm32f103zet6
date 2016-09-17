@@ -87,11 +87,16 @@ typedef struct
 	  u8  *pUsartBuffer;
 	  signed short tubAD_Value[8];
 	  float fADValue;
+	  float fADValue1;
+	  float fADValue2;
 	  float fADValue3;
 	  float fADValue4;
+	  float fADValue5;
 	  float fADValue6;
 	  float fADValue7;
-	  float fADValue4Compensation;
+	  float fADValue4Compensation  ;
+
+	  
 	 
 	  //TMailBox * tMailBox;
 
