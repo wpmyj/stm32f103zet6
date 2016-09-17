@@ -12,7 +12,7 @@ extern AD7606_INFO stAd7606;
 
 void  Sample_Chanal(u8 num )
 {
-	u8 i =0, j= 0;
+	u16 i =0, j= 0;
 	double z = 0ul;
 	double ulValueX= 0ul;
 	double ulValueY= 0ul;
@@ -108,8 +108,8 @@ void Sample_ch4(void)
 {
 	u16 i =0;
 	double z = 0ul;
-    double ulValueX= 0ul;
-    double ulValueY= 0ul;
+  double ulValueX= 0ul;
+  double ulValueY= 0ul;
 	
    INTSYS syFlagIE;
 	
@@ -120,7 +120,7 @@ void Sample_ch4(void)
 			for(i= 0; i< SAMPLE_RATE ;i ++)
 			{
 					ulValueX +=(double) (stAd7606.ch4[i] * cos(2*Pi*i/SAMPLE_RATE ))/(SAMPLE_RATE/2) ;
-			        ulValueY +=(double) (stAd7606.ch4[i] * sin(2*Pi*i/SAMPLE_RATE))/(SAMPLE_RATE/2) ;
+			    ulValueY +=(double) (stAd7606.ch4[i] * sin(2*Pi*i/SAMPLE_RATE))/(SAMPLE_RATE/2) ;
 			}			
 			z=sqrt(ulValueX*ulValueX+ulValueY*ulValueY);			    
 			g_stVlue.fADValue4 = z*10/(32768*1.4142135623);

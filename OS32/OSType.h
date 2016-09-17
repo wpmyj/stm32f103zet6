@@ -3,6 +3,8 @@
 
 #include "monitoring.h"
 
+ #define SAMPLE_RATE (80*5)
+
 #define u32 unsigned int
 #define u16 unsigned   short  int
 #define u8    unsigned char
@@ -70,16 +72,19 @@ typedef struct
 	   
 }AD7606_DATA_INFO;
 
+
+#define  UART4BuferSize 32
  typedef struct
  {
  	  u8  tem1;
 	  u8  ubUsartCount;
-	  
+	  u8  ubUsart4Event;
 	 
-	  u8  tabUsartValue[8];	 
+	  u8  tabUsartValue[UART4BuferSize];	 
 	  u16  ad7606Count;    
 	  u16 uitem1; 
 	  u16 uitem2; 
+	  u8  *pUsartBuffer;
 	  signed short tubAD_Value[8];
 	  float fADValue;
 	  float fADValue3;
@@ -87,6 +92,7 @@ typedef struct
 	  float fADValue6;
 	  float fADValue7;
 	  float fADValue4Compensation;
+	 
 	  //TMailBox * tMailBox;
 
  }ST_Value;

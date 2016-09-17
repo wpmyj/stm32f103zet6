@@ -1,8 +1,10 @@
  #ifndef MONITOR_H
  #define MONITOR_H
  //
+#include "OSType.h"
 
- #define SAMPLE_RATE (80*5)
  #define Pi 3.141592653589 
+ 
+ void  Sample_Chanal(unsigned char num );
 
  #endif

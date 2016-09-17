@@ -4,6 +4,7 @@
 #include "stm32f10x_gpio.h"
 #include "misc.h"
 #include "stdio.h"
+#include "relay.h"
 //#include "misc.h"
 
 extern ST_Value g_stVlue;
@@ -53,12 +54,12 @@ void usart4Init(u32 bound)
 #else
 void usart4Init(u32 bound)
 {
-    GPIO_InitTypeDef GPIO_InitStructure;
+  GPIO_InitTypeDef GPIO_InitStructure;
 	USART_InitTypeDef USART_InitStructure;
 	NVIC_InitTypeDef NVIC_InitStructure;
 
-	 RCC_APB1PeriphClockCmd(RCC_APB1Periph_USART3,ENABLE);	 //使能USART3
-	 RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC | RCC_APB2Periph_AFIO,ENABLE);
+	RCC_APB1PeriphClockCmd(RCC_APB1Periph_USART3,ENABLE);	 //使能USART3
+  RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC | RCC_APB2Periph_AFIO,ENABLE);
      //USART3_TX   PB.10
 	GPIO_PinRemapConfig(GPIO_PartialRemap_USART3,ENABLE);
     GPIO_InitStructure.GPIO_Pin = GPIO_Pin_10; //PB.10
@@ -127,13 +128,13 @@ void SetCurentPercent( u8 v)  //设置电流百分比
 	else if ((v >= 80) &&	(v < 100)  )
 	{
 	     g_stVlue.uitem1 =   i * 50 *  0.99;
-		 setDC_Value(g_stVlue.uitem1);
+		   setDC_Value(g_stVlue.uitem1);
 	}
 
 					    
 	else
 	{
-		g_stVlue.uitem1 =   i * 50 ;
+		 g_stVlue.uitem1 =   i * 50 ;
 		 setDC_Value(g_stVlue.uitem1);
 	}
 #endif
@@ -165,10 +166,13 @@ void UART4_IRQHandler (void)  //UART4_IRQHandler IMPORT  UART4_IRQHandler
 	 }
 	 AD7545_handle();
 #else
+	#if 0
+	 
 	 if(UART4->DR == 0)
 	 {
 	 		setDC_Value(0);
 	 }
+	
 	 else
 	 {
 	 		SetCurentPercent (UART4->DR );
@@ -185,12 +189,36 @@ void UART4_IRQHandler (void)  //UART4_IRQHandler IMPORT  UART4_IRQHandler
 		 USART_ClearITPendingBit(UART4,USART_IT_RXNE);
 		 USART_ClearITPendingBit(UART4,USART_FLAG_TC);
 	}
+	#else
+	 
+		if(UART4->DR != 0xfe)
+		{	
+			g_stVlue.ubUsartCount++;
+			if(g_stVlue.pUsartBuffer < g_stVlue.pUsartBuffer + UART4BuferSize)
+			{
+				*g_stVlue.pUsartBuffer++ = UART4->DR;
+			}
+			else
+			{
+         g_stVlue.pUsartBuffer = g_stVlue.tabUsartValue;
+      }
+		}
+		else
+		{
+				g_stVlue.ubUsart4Event  = 1;
+			  Uart4_Event(&g_stVlue);
+			  RestoreUsart(4);
+    }
+		
+	#endif
 #endif	
 }
 
 void AD7545_handle(void )								    
 {	 
 	 u16 ubValue = 0;
+	
+	 
 #if  1
 	 if(g_stVlue.ubUsartCount >= 2)
 	 { 
@@ -203,6 +231,63 @@ void AD7545_handle(void )
 	 }
 #endif
 }  
+#define AD7545 1
+#define CONFIG 2
+
+void RestoreUsart(u8 num)
+{
+		switch(num)
+		{
+			 case 1:
+				 break;
+			 
+			 case 2:
+				 break;
+			 
+			 case 3:
+				 break;
+			 
+			 case 4:
+			 {
+					g_stVlue.pUsartBuffer = g_stVlue.tabUsartValue;
+				  memset(g_stVlue.tabUsartValue, 0, UART4BuferSize);
+       }
+				 break;
+			 
+			 default :
+				 break;
+			 
+    }
+
+}
+
+void Uart4_Event( ST_Value * p)
+{
+		u8 ubEvent = 0;
+	
+		if(p->ubUsart4Event != 1)
+		{
+				return;
+    }
+		ubEvent = p->tabUsartValue[1];
+		
+		switch(ubEvent)
+		{
+				case AD7545:
+					SetCurentPercent (p->tabUsartValue[2] );
+				break;
+				
+				case CONFIG:
+					setViltageCurrent(p->tabUsartValue[2],p->tabUsartValue[3]);//(CURRENT_TUPE,RATION_100);
+				break;
+				
+				default:
+					break;
+					
+    }
+	
+
+}
 
 
 

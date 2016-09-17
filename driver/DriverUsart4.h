@@ -11,4 +11,6 @@
 void usart4Init(unsigned int bound);
 void setDC_Value(unsigned short int num);	  //µ¥Î»ÎªºÁ·ü
 void AD7545_handle(void );	
+void Uart4_Event( ST_Value * p);
+void RestoreUsart(u8 num);
 #endif

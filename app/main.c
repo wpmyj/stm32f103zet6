@@ -6,6 +6,7 @@
 #include "testConfig.h"
 #include "DeviceFsmc.h"
 #include "led.h"
+#include "monitoring.h"
 
  void testClockInit(void);
  void Sample_ch6(void);
@@ -52,6 +53,7 @@ int main()
 	testClockInit() ;
 	usart4Init(9600);
 	UART4->CR1 |= 1 << 8;//	PEIE
+  g_stVlue.pUsartBuffer = g_stVlue.tabUsartValue;
 	AD7545_Init();
 	PGA204Init();
 	AD7606_Init();
@@ -87,7 +89,7 @@ int main()
 		chdisp(7,44,TabString,1);
 		sprintf(TabString,"%10.4f",g_stVlue.fADValue6 );
 		chdisp(7,78,TabString,1);
-		Sample_ch4();
+		Sample_Chanal(5);
 	}
 	#else
 		//Gpio164245_Init();
