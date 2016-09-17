@@ -7,3 +7,579 @@ E:\Äþ²¨ÈýÎ¬\stm32f103zet6\san_wei.uvproj
 Project File Date:  09/17/2016
 
 <h2>Output:</h2>
+Build target 'Target 1'
+compiling config.c...
+assembling startup_stm32f10x_hd.s...
+compiling main.c...
+.\STM32F10x_FWLib\src\stm32f10x_systick.h(38): warning:  #47-D: incompatible redefinition of macro "SysTick_CLKSource_HCLK" (declared at line 173 of ".\STM32F10x_FWLib\inc\misc.h")
+.\STM32F10x_FWLib\src\stm32f10x_systick.h:   #define SysTick_CLKSource_HCLK         ((u32)0x00000004)
+.\STM32F10x_FWLib\src\stm32f10x_systick.h:           ^
+.\driver\DriverSystick.h(7): warning:  #1-D: last line of file ends without a newline
+.\driver\DriverSystick.h:   #endif
+.\driver\DriverSystick.h:         ^
+.\OS32\OSType.h(104): warning:  #1-D: last line of file ends without a newline
+.\OS32\OSType.h:                                                                                   
+.\OS32\OSType.h:                                                                                   ^
+.\OS32\OSType.h(104): warning:  #1-D: last line of file ends without a newline
+.\OS32\OSType.h:                                                                                   
+.\OS32\OSType.h:                                                                                   ^
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+.\driver\PGA204.h:   #endif
+.\driver\PGA204.h:         ^
+app\led.h(6): warning:  #1-D: last line of file ends without a newline
+app\led.h:   #endif
+app\led.h:         ^
+app\main.c(44): warning:  #223-D: function "IE_syDisable" declared implicitly
+app\main.c:     DISABLE_INTERRUPT//DISABLE_INTERRUPT         
+app\main.c:     ^
+app\main.c(51): warning:  #223-D: function "EXTI_DeInit" declared implicitly
+app\main.c:     EXTI_DeInit();
+app\main.c:     ^
+app\main.c(52): warning:  #223-D: function "test_NSS" declared implicitly
+app\main.c:     test_NSS();
+app\main.c:     ^
+app\main.c(57): warning:  #223-D: function "AD7545_Init" declared implicitly
+app\main.c:     AD7545_Init();
+app\main.c:     ^
+app\main.c(58): warning:  #223-D: function "PGA204Init" declared implicitly
+app\main.c:     PGA204Init();
+app\main.c:     ^
+app\main.c(59): warning:  #223-D: function "AD7606_Init" declared implicitly
+app\main.c:     AD7606_Init();
+app\main.c:     ^
+app\main.c(60): warning:  #223-D: function "MachineFaultInit" declared implicitly
+app\main.c:     MachineFaultInit();
+app\main.c:     ^
+app\main.c(62): warning:  #223-D: function "AG320240_Init" declared implicitly
+app\main.c:     AG320240_Init();
+app\main.c:     ^
+app\main.c(64): warning:  #223-D: function "delay" declared implicitly
+app\main.c:     delay(60000);
+app\main.c:     ^
+app\main.c(66): warning:  #223-D: function "screen1" declared implicitly
+app\main.c:     screen1();
+app\main.c:     ^
+app\main.c(69): warning:  #223-D: function "screen2" declared implicitly
+app\main.c:     screen2();
+app\main.c:     ^
+app\main.c(71): warning:  #223-D: function "IE_vSet" declared implicitly
+app\main.c:     ENABLE_INTERRUPT 
+app\main.c:     ^
+app\main.c(84): warning:  #223-D: function "AD7606_Handle" declared implicitly
+app\main.c:     AD7606_Handle(); 
+app\main.c:     ^
+app\main.c(85): warning:  #223-D: function "test_gui" declared implicitly
+app\main.c:     test_gui();
+app\main.c:     ^
+app\main.c(88): warning:  #223-D: function "sprintf" declared implicitly
+app\main.c:             sprintf(TabString,"%10.4f",g_stVlue.fADValue3 - g_stVlue.fADValue4Compensation);
+app\main.c:             ^
+app\main.c(89): warning:  #223-D: function "chdisp" declared implicitly
+app\main.c:             chdisp(7,44,TabString,1);
+app\main.c:             ^
+app\main.c: app\main.c: 22 warnings, 0 errors
+compiling delay.c...
+compiling PowerMachineFault.c...
+.\OS32\OSType.h(104): warning:  #1-D: last line of file ends without a newline
+.\OS32\OSType.h:                                                                                   
+.\OS32\OSType.h:                                                                                   ^
+.\OS32\ostype.h(104): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h:                                                                                   
+.\OS32\ostype.h:                                                                                   ^
+.\driver\DriverEXTLine.h(13): warning:  #1-D: last line of file ends without a newline
+.\driver\DriverEXTLine.h:   #endif
+.\driver\DriverEXTLine.h:         ^
+app\PowerMachineFault.h(6): warning:  #1-D: last line of file ends without a newline
+app\PowerMachineFault.h:   #endif
+app\PowerMachineFault.h:         ^
+app\PowerMachineFault.h: app\PowerMachineFault.c: 4 warnings, 0 errors
+compiling monitoring.c...
+.\OS32\OSType.h(104): warning:  #1-D: last line of file ends without a newline
+.\OS32\OSType.h:                                                                                   
+.\OS32\OSType.h:                                                                                   ^
+app\monitoring.c(15): warning:  #177-D: variable "j" was declared but never referenced
+app\monitoring.c:       u16 i =0, j= 0;
+app\monitoring.c:                 ^
+app\monitoring.c(114): warning:  #177-D: variable "syFlagIE" was declared but never referenced
+app\monitoring.c:      INTSYS syFlagIE;
+app\monitoring.c:             ^
+app\monitoring.c: app\monitoring.c: 3 warnings, 0 errors
+compiling relay.c...
+app\relay.h(16): warning:  #1-D: last line of file ends without a newline
+app\relay.h:   #endif
+app\relay.h:         ^
+app\relay.c(81): warning:  #1-D: last line of file ends without a newline
+app\relay.c:   }
+app\relay.c:    ^
+app\relay.c: app\relay.c: 2 warnings, 0 errors
+compiling DriverIt.c...
+.\OS32\OSType.h(104): warning:  #1-D: last line of file ends without a newline
+.\OS32\OSType.h:                                                                                   
+.\OS32\OSType.h:                                                                                   ^
+.\OS32\OSType.h(104): warning:  #1-D: last line of file ends without a newline
+.\OS32\OSType.h:                                                                                   
+.\OS32\OSType.h:                                                                                   ^
+.\OS32\OSType.h: driver\DriverIt.c: 2 warnings, 0 errors
+compiling DriverSystick.c...
+.\STM32F10x_FWLib\src\stm32f10x_systick.h(38): warning:  #47-D: incompatible redefinition of macro "SysTick_CLKSource_HCLK" (declared at line 173 of ".\STM32F10x_FWLib\inc\misc.h")
+.\STM32F10x_FWLib\src\stm32f10x_systick.h:   #define SysTick_CLKSource_HCLK         ((u32)0x00000004)
+.\STM32F10x_FWLib\src\stm32f10x_systick.h:           ^
+driver\DriverSystick.h(7): warning:  #1-D: last line of file ends without a newline
+driver\DriverSystick.h:   #endif
+driver\DriverSystick.h:         ^
+.\OS32\OSType.h(104): warning:  #1-D: last line of file ends without a newline
+.\OS32\OSType.h:                                                                                   
+.\OS32\OSType.h:                                                                                   ^
+.\OS32\ostype.h(104): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h:                                                                                   
+.\OS32\ostype.h:                                                                                   ^
+.\OS32\ostype.h: driver\DriverSystick.c: 4 warnings, 0 errors
+compiling AD.c...
+compiling AD7606.c...
+.\driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+.\driver\PGA204.h:   #endif
+.\driver\PGA204.h:         ^
+.\OS32\OSType.h(104): warning:  #1-D: last line of file ends without a newline
+.\OS32\OSType.h:                                                                                   
+.\OS32\OSType.h:                                                                                   ^
+.\OS32\ostype.h(104): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h:                                                                                   
+.\OS32\ostype.h:                                                                                   ^
+HARDWARE\AD7606\AD7606.c(77): warning:  #177-D: variable "ulTem1" was declared but never referenced
+HARDWARE\AD7606\AD7606.c:        float ulTem1 = 0;
+HARDWARE\AD7606\AD7606.c:              ^
+HARDWARE\AD7606\AD7606.c: HARDWARE\AD7606\AD7606.c: 4 warnings, 0 errors
+compiling 1335.C...
+.\OS32\OSType.h(104): warning:  #1-D: last line of file ends without a newline
+.\OS32\OSType.h:                                                                                   
+.\OS32\OSType.h:                                                                                   ^
+.\OS32\ostype.h(104): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h:                                                                                   
+.\OS32\ostype.h:                                                                                   ^
+.\gui\INC\option.h(74): warning:  #1-D: last line of file ends without a newline
+.\gui\INC\option.h:   #endif /*__OPTION_H__*/
+.\gui\INC\option.h:                          ^
+.\gui\INC\def.h(1032): warning:  #47-D: incompatible redefinition of macro "Pi" (declared at line 6 of ".\app\monitoring.h")
+.\gui\INC\def.h:   #define Pi  3.14159265358979 
+.\gui\INC\def.h:           ^
+.\driver\DriverSPI.h(28): warning:  #1-D: last line of file ends without a newline
+.\driver\DriverSPI.h:   #endif
+.\driver\DriverSPI.h:         ^
+app\1335.C(695): warning:  #223-D: function "ExtLineConfig" declared implicitly
+app\1335.C:     ExtLineConfig(GPIO_PortSourceGPIOG,GPIO_PinSource6);
+app\1335.C:     ^
+app\1335.C(700): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:     RA8835P_RST(0);
+app\1335.C:     ^
+app\1335.C(701): warning:  #223-D: function "delay" declared implicitly
+app\1335.C:     delay(60000);
+app\1335.C:     ^
+app\1335.C(702): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:     RA8835P_RST(1);
+app\1335.C:     ^
+app\1335.C(652): warning:  #177-D: variable "EXTI_InitStructure" was declared but never referenced
+app\1335.C:     EXTI_InitTypeDef    EXTI_InitStructure;
+app\1335.C:                         ^
+app\1335.C(653): warning:  #177-D: variable "NVIC_InitStructure" was declared but never referenced
+app\1335.C:     NVIC_InitTypeDef    NVIC_InitStructure;
+app\1335.C:                         ^
+app\1335.C(711): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:       RA8835P_RS(1);
+app\1335.C:       ^
+app\1335.C(712): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:       RA8835P_CS(0);
+app\1335.C:       ^
+app\1335.C(721): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:             GPIO_WriteBit(GPIOA,GPIO_Pin_8, 1);
+app\1335.C:                                             ^
+app\1335.C(725): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:              GPIO_WriteBit(GPIOA,GPIO_Pin_8, 0);
+app\1335.C:                                              ^
+app\1335.C(730): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:              GPIO_WriteBit(GPIOE,GPIO_Pin_12,1);
+app\1335.C:                                              ^
+app\1335.C(734): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:              GPIO_WriteBit(GPIOE,GPIO_Pin_12,0);
+app\1335.C:                                              ^
+app\1335.C(739): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:              GPIO_WriteBit(GPIOE,GPIO_Pin_13,1);
+app\1335.C:                                              ^
+app\1335.C(743): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:               GPIO_WriteBit(GPIOE,GPIO_Pin_13,0);
+app\1335.C:                                               ^
+app\1335.C(748): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:        GPIO_WriteBit(GPIOE,GPIO_Pin_14,1);
+app\1335.C:                                        ^
+app\1335.C(752): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:        GPIO_WriteBit(GPIOE,GPIO_Pin_14,0);
+app\1335.C:                                        ^
+app\1335.C(757): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:             GPIO_WriteBit(GPIOE,GPIO_Pin_15,1);
+app\1335.C:                                             ^
+app\1335.C(761): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:             GPIO_WriteBit(GPIOE,GPIO_Pin_15,0);
+app\1335.C:                                             ^
+app\1335.C(764): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:       RA8835P_WR(0);
+app\1335.C:       ^
+app\1335.C(766): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:       RA8835P_WR(1);
+app\1335.C:       ^
+app\1335.C(767): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:       RA8835P_CS(1);
+app\1335.C:       ^
+app\1335.C(773): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:       RA8835P_RS(0);
+app\1335.C:       ^
+app\1335.C(774): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:       RA8835P_CS(0);
+app\1335.C:       ^
+app\1335.C(782): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:             GPIO_WriteBit(GPIOA,GPIO_Pin_8, 1);
+app\1335.C:                                             ^
+app\1335.C(786): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:              GPIO_WriteBit(GPIOA,GPIO_Pin_8, 0);
+app\1335.C:                                              ^
+app\1335.C(791): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:              GPIO_WriteBit(GPIOE,GPIO_Pin_12,1);
+app\1335.C:                                              ^
+app\1335.C(795): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:              GPIO_WriteBit(GPIOE,GPIO_Pin_12,0);
+app\1335.C:                                              ^
+app\1335.C(800): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:              GPIO_WriteBit(GPIOE,GPIO_Pin_13,1);
+app\1335.C:                                              ^
+app\1335.C(804): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:               GPIO_WriteBit(GPIOE,GPIO_Pin_13,0);
+app\1335.C:                                               ^
+app\1335.C(809): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:        GPIO_WriteBit(GPIOE,GPIO_Pin_14,1);
+app\1335.C:                                        ^
+app\1335.C(813): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:        GPIO_WriteBit(GPIOE,GPIO_Pin_14,0);
+app\1335.C:                                        ^
+app\1335.C(818): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:              GPIO_WriteBit(GPIOE,GPIO_Pin_15,1);
+app\1335.C:                                              ^
+app\1335.C(822): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:               GPIO_WriteBit(GPIOE,GPIO_Pin_15,0);
+app\1335.C:                                               ^
+app\1335.C(827): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:       RA8835P_WR(0);
+app\1335.C:       ^
+app\1335.C(829): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:       RA8835P_WR(1);
+app\1335.C:       ^
+app\1335.C(830): warning:  #188-D: enumerated type mixed with another type
+app\1335.C:       RA8835P_CS(1);
+app\1335.C:       ^
+app\1335.C(938): warning:  #223-D: function "delay" declared implicitly
+app\1335.C:           delay(100);
+app\1335.C:           ^
+app\1335.C(1002): warning:  #223-D: function "delay" declared implicitly
+app\1335.C:                                delay(100);
+app\1335.C:                                ^
+app\1335.C(1013): warning:  #223-D: function "delay" declared implicitly
+app\1335.C:             delay(100);
+app\1335.C:             ^
+app\1335.C(1032): warning:  #223-D: function "delay" declared implicitly
+app\1335.C:             delay(100);
+app\1335.C:             ^
+app\1335.C(1050): warning:  #223-D: function "delay" declared implicitly
+app\1335.C:      delay(100);
+app\1335.C:      ^
+app\1335.C(1478): warning:  #223-D: function "delay" declared implicitly
+app\1335.C:       delay(100);
+app\1335.C:       ^
+app\1335.C(1565): warning:  #223-D: function "delay" declared implicitly
+app\1335.C:     delay(60000)   ;
+app\1335.C:     ^
+app\1335.C: app\1335.C: 48 warnings, 0 errors
+compiling DA7545.C...
+compiling DriverUsart4.c...
+.\OS32\OSType.h(104): warning:  #1-D: last line of file ends without a newline
+.\OS32\OSType.h:                                                                                   
+.\OS32\OSType.h:                                                                                   ^
+.\OS32\ostype.h(104): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h:                                                                                   
+.\OS32\ostype.h:                                                                                   ^
+.\app\relay.h(16): warning:  #1-D: last line of file ends without a newline
+.\app\relay.h:   #endif
+.\app\relay.h:         ^
+driver\DriverUsart4.c(109): warning:  #177-D: variable "tem" was declared but never referenced
+driver\DriverUsart4.c:          u16 tem = 0;
+driver\DriverUsart4.c:              ^
+driver\DriverUsart4.c(229): warning:  #223-D: function "memset" declared implicitly
+driver\DriverUsart4.c:                    memset(g_stVlue.tabUsartValue, 0, 100);
+driver\DriverUsart4.c:                    ^
+driver\DriverUsart4.c(253): warning:  #223-D: function "memset" declared implicitly
+driver\DriverUsart4.c:                                    memset(g_stVlue.tabUsartValue, 0, UART4BuferSize);
+driver\DriverUsart4.c:                                    ^
+driver\DriverUsart4.c: driver\DriverUsart4.c: 6 warnings, 0 errors
+compiling PGA204.c...
+driver\PGA204.h(10): warning:  #1-D: last line of file ends without a newline
+driver\PGA204.h:   #endif
+driver\PGA204.h:         ^
+driver\PGA204.h: driver\PGA204.c: 1 warning, 0 errors
+compiling DriverSPI.c...
+driver\DriverSPI.h(28): warning:  #1-D: last line of file ends without a newline
+driver\DriverSPI.h:   #endif
+driver\DriverSPI.h:         ^
+driver\DriverSPI.h: driver\DriverSPI.c: 1 warning, 0 errors
+compiling DriverEXTLine.c...
+.\OS32\OSType.h(104): warning:  #1-D: last line of file ends without a newline
+.\OS32\OSType.h:                                                                                   
+.\OS32\OSType.h:                                                                                   ^
+.\OS32\ostype.h(104): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h:                                                                                   
+.\OS32\ostype.h:                                                                                   ^
+driver\DriverEXTLine.h(13): warning:  #1-D: last line of file ends without a newline
+driver\DriverEXTLine.h:   #endif
+driver\DriverEXTLine.h:         ^
+driver\DriverSPI.h(28): warning:  #1-D: last line of file ends without a newline
+driver\DriverSPI.h:   #endif
+driver\DriverSPI.h:         ^
+driver\DriverEXTLine.c(8): warning:  #177-D: variable "uba1" was declared but never referenced
+driver\DriverEXTLine.c:         u8 uba1 = 0,uba2 = 0 ;
+driver\DriverEXTLine.c:            ^
+driver\DriverEXTLine.c(8): warning:  #177-D: variable "uba2" was declared but never referenced
+driver\DriverEXTLine.c:         u8 uba1 = 0,uba2 = 0 ;
+driver\DriverEXTLine.c:                     ^
+driver\DriverEXTLine.c(108): warning:  #520-D: initialization with "{...}" expected for aggregate object
+driver\DriverEXTLine.c:   SPI_INFO         stSPIvalue = 0;
+driver\DriverEXTLine.c:                                 ^
+driver\DriverEXTLine.c(115): warning:  #177-D: variable "statue" was declared but never referenced
+driver\DriverEXTLine.c:         u8 statue = 0;
+driver\DriverEXTLine.c:            ^
+driver\DriverEXTLine.c(116): warning:  #177-D: variable "i" was declared but never referenced
+driver\DriverEXTLine.c:         u16 i =0 ;
+driver\DriverEXTLine.c:             ^
+driver\DriverEXTLine.c: driver\DriverEXTLine.c: 9 warnings, 0 errors
+compiling gui.c...
+.\OS32\OSType.h(104): warning:  #1-D: last line of file ends without a newline
+.\OS32\OSType.h:                                                                                   
+.\OS32\OSType.h:                                                                                   ^
+.\OS32\ostype.h(104): warning:  #1-D: last line of file ends without a newline
+.\OS32\ostype.h:                                                                                   
+.\OS32\ostype.h:                                                                                   ^
+driver\gui.c(42): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c:       WriteCommandRA8835P(0x46);  //CURSOR SET
+driver\gui.c:       ^
+driver\gui.c(43): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+driver\gui.c:       WriteDataRA8835P(csr%256);  //SET P1  (00H)
+driver\gui.c:       ^
+driver\gui.c(60): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c:           WriteCommandRA8835P(0x46);      //CURSOR SET
+driver\gui.c:           ^
+driver\gui.c(62): warning:  #223-D: function "SetCursor" declared implicitly
+driver\gui.c:           SetCursor(glow,glow);
+driver\gui.c:           ^
+driver\gui.c(56): warning:  #177-D: variable "ghigh" was declared but never referenced
+driver\gui.c:      static u8 ghigh = 0;
+driver\gui.c:                ^
+driver\gui.c(189): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c:                   LcdCommand(0x46);                       
+driver\gui.c:                   ^
+driver\gui.c(190): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+driver\gui.c:                   LcdDataWrite(v_test1.byte.low); //19 120
+driver\gui.c:                   ^
+driver\gui.c(202): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c:                   LcdCommand(0x46);                       
+driver\gui.c:                   ^
+driver\gui.c(203): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+driver\gui.c:                   LcdDataWrite(v_test1.byte.low); //19 120
+driver\gui.c:                   ^
+driver\gui.c(215): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c:                   LcdCommand(0x46);       
+driver\gui.c:                   ^
+driver\gui.c(217): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+driver\gui.c:                   LcdDataWrite(v_test1.byte.low); //19 120
+driver\gui.c:                   ^
+driver\gui.c(229): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c:                   LcdCommand(0x46);       
+driver\gui.c:                   ^
+driver\gui.c(231): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+driver\gui.c:                   LcdDataWrite(v_test1.byte.low); //19 120
+driver\gui.c:                   ^
+driver\gui.c(243): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c:                   LcdCommand(0x46);       
+driver\gui.c:                   ^
+driver\gui.c(245): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+driver\gui.c:                   LcdDataWrite(v_test1.byte.low); //19 120
+driver\gui.c:                   ^
+driver\gui.c(256): warning:  #223-D: function "WriteCommandRA8835P" declared implicitly
+driver\gui.c:                   LcdCommand(0x46);       
+driver\gui.c:                   ^
+driver\gui.c(258): warning:  #223-D: function "WriteDataRA8835P" declared implicitly
+driver\gui.c:                   LcdDataWrite(v_test1.byte.low); //19 120
+driver\gui.c:                   ^
+driver\gui.c: driver\gui.c: 19 warnings, 0 errors
+compiling DeviceFsmc.c...
+.\STM32F10x_FWLib\src\stm32f10x_systick.h(38): warning:  #47-D: incompatible redefinition of macro "SysTick_CLKSource_HCLK" (declared at line 173 of ".\STM32F10x_FWLib\inc\misc.h")
+.\STM32F10x_FWLib\src\stm32f10x_systick.h:   #define SysTick_CLKSource_HCLK         ((u32)0x00000004)
+.\STM32F10x_FWLib\src\stm32f10x_systick.h:           ^
+.\STM32F10x_FWLib\src\stm32f10x_systick.h: driver\DeviceFsmc.c: 1 warning, 0 errors
+compiling led.c...
+app\led.h(6): warning:  #1-D: last line of file ends without a newline
+app\led.h:   #endif
+app\led.h:         ^
+app\led.c(11): warning:  #1-D: last line of file ends without a newline
+app\led.c:   }
+app\led.c:    ^
+app\led.c: app\led.c: 2 warnings, 0 errors
+assembling CPU.S...
+compiling MyTask .c...
+.\OS32\OSType.h(104): warning:  #1-D: last line of file ends without a newline
+.\OS32\OSType.h:                                                                                   
+.\OS32\OSType.h:                                                                                   ^
+OS32\OSType.h(104): warning:  #1-D: last line of file ends without a newline
+OS32\OSType.h:                                                                                     
+OS32\OSType.h:                                                                                     ^
+OS32\MyTask .c(43): warning:  #223-D: function "Sleep_vProcess" declared implicitly
+OS32\MyTask .c:                 Sleep_vProcess();
+OS32\MyTask .c:                 ^
+OS32\MyTask .c(48): warning:  #550-D: parameter "__hi" was set but never used
+OS32\MyTask .c:   void TASK_GET_HIGH_PRI(UINT8 __hi,UINT32 __group, UINT8* __pub)   
+OS32\MyTask .c:                                ^
+OS32\MyTask .c(79): warning:  #177-D: variable "pub" was declared but never referenced
+OS32\MyTask .c:         UINT8* pub;
+OS32\MyTask .c:                ^
+OS32\MyTask .c(121): warning:  #177-D: variable "ubTableIndex" was declared but never referenced
+OS32\MyTask .c:         UINT8 ubTableIndex;
+OS32\MyTask .c:               ^
+OS32\MyTask .c(122): warning:  #177-D: variable "ubPriValue" was declared but never referenced
+OS32\MyTask .c:         UINT8 ubPriValue;
+OS32\MyTask .c:               ^
+OS32\MyTask .c(123): warning:  #177-D: variable "ubHighestPri" was declared but never referenced
+OS32\MyTask .c:         UINT8 ubHighestPri;
+OS32\MyTask .c:               ^
+OS32\MyTask .c(124): warning:  #177-D: variable "i" was declared but never referenced
+OS32\MyTask .c:         INTSYS i;
+OS32\MyTask .c:                ^
+OS32\MyTask .c(147): warning:  #177-D: variable "a" was declared but never referenced
+OS32\MyTask .c:                 int a = 0;  
+OS32\MyTask .c:                     ^
+OS32\MyTask .c(157): warning:  #223-D: function "AD7545_Init" declared implicitly
+OS32\MyTask .c:                   AD7545_Init();
+OS32\MyTask .c:                   ^
+OS32\MyTask .c(179): warning:  #223-D: function "IE_vGenerateFirstPendSV" declared implicitly
+OS32\MyTask .c:                 IE_vGenerateFirstPendSV();
+OS32\MyTask .c:                 ^
+OS32\MyTask .c(170): warning:  #177-D: variable "ulHighPri" was declared but never referenced
+OS32\MyTask .c:                 UINT32 ulHighPri;
+OS32\MyTask .c:                        ^
+OS32\MyTask .c(171): warning:  #177-D: variable "pub" was declared but never referenced
+OS32\MyTask .c:                 UINT8* pub;
+OS32\MyTask .c:                        ^
+OS32\MyTask .c(232): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c:         DISABLE_INTERRUPT
+OS32\MyTask .c:         ^
+OS32\MyTask .c(240): warning:  #223-D: function "IE_vGeneratePendSV" declared implicitly
+OS32\MyTask .c:                 IE_vGeneratePendSV();           
+OS32\MyTask .c:                 ^
+OS32\MyTask .c(243): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c:         ENABLE_INTERRUPT                
+OS32\MyTask .c:         ^
+OS32\MyTask .c(250): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c:         DISABLE_INTERRUPT
+OS32\MyTask .c:         ^
+OS32\MyTask .c(251): warning:  #223-D: function "Sleep_vSet" declared implicitly
+OS32\MyTask .c:         Sleep_vSet(g_pstCurTask,syCount);       
+OS32\MyTask .c:         ^
+OS32\MyTask .c(253): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c:         ENABLE_INTERRUPT
+OS32\MyTask .c:         ^
+OS32\MyTask .c(262): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c:         DISABLE_INTERRUPT
+OS32\MyTask .c:         ^
+OS32\MyTask .c(265): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c:         ENABLE_INTERRUPT
+OS32\MyTask .c:         ^
+OS32\MyTask .c(260): warning:  #177-D: variable "pub" was declared but never referenced
+OS32\MyTask .c:         UINT8* pub;
+OS32\MyTask .c:                ^
+OS32\MyTask .c(261): warning:  #177-D: variable "ulHighPri" was declared but never referenced
+OS32\MyTask .c:         UINT32 ulHighPri;
+OS32\MyTask .c:                ^
+OS32\MyTask .c(275): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c:         DISABLE_INTERRUPT
+OS32\MyTask .c:         ^
+OS32\MyTask .c(278): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c:                 ENABLE_INTERRUPT
+OS32\MyTask .c:                 ^
+OS32\MyTask .c(284): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c:         ENABLE_INTERRUPT
+OS32\MyTask .c:         ^
+OS32\MyTask .c(272): warning:  #177-D: variable "pub" was declared but never referenced
+OS32\MyTask .c:         UINT8* pub;
+OS32\MyTask .c:                ^
+OS32\MyTask .c(273): warning:  #177-D: variable "ulHighPri" was declared but never referenced
+OS32\MyTask .c:         UINT32 ulHighPri;
+OS32\MyTask .c:                ^
+OS32\MyTask .c(292): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c:         DISABLE_INTERRUPT
+OS32\MyTask .c:         ^
+OS32\MyTask .c(294): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c:         ENABLE_INTERRUPT
+OS32\MyTask .c:         ^
+OS32\MyTask .c(303): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c:         DISABLE_INTERRUPT
+OS32\MyTask .c:         ^
+OS32\MyTask .c(306): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c:         ENABLE_INTERRUPT
+OS32\MyTask .c:         ^
+OS32\MyTask .c(312): warning:  #223-D: function "IE_syDisable" declared implicitly
+OS32\MyTask .c:         DISABLE_INTERRUPT
+OS32\MyTask .c:         ^
+OS32\MyTask .c(314): warning:  #223-D: function "IE_vGeneratePendSV" declared implicitly
+OS32\MyTask .c:         IE_vGeneratePendSV();
+OS32\MyTask .c:         ^
+OS32\MyTask .c(315): warning:  #223-D: function "IE_vSet" declared implicitly
+OS32\MyTask .c:         ENABLE_INTERRUPT
+OS32\MyTask .c:         ^
+OS32\MyTask .c(36): warning:  #177-D: function "_vTaskSleep" was declared but never referenced
+OS32\MyTask .c:   static void _vTaskSleep(void* pvParameter)
+OS32\MyTask .c:               ^
+OS32\MyTask .c: OS32\MyTask .c: 37 warnings, 0 errors
+compiling core_cm3.c...
+compiling OS004_Sleep.c...
+.\OS32\OSType.h(104): warning:  #1-D: last line of file ends without a newline
+.\OS32\OSType.h:                                                                                   
+.\OS32\OSType.h:                                                                                   ^
+OS32\OSType.h(104): warning:  #1-D: last line of file ends without a newline
+OS32\OSType.h:                                                                                     
+OS32\OSType.h:                                                                                     ^
+OS32\OSType.h: OS32\OS004_Sleep.c: 2 warnings, 0 errors
+compiling stm32f10x_tim.c...
+compiling stm32f10x_systick.c...
+STM32F10x_FWLib\src\stm32f10x_systick.h(38): warning:  #47-D: incompatible redefinition of macro "SysTick_CLKSource_HCLK" (declared at line 173 of ".\STM32F10x_FWLib\inc\misc.h")
+STM32F10x_FWLib\src\stm32f10x_systick.h:   #define SysTick_CLKSource_HCLK         ((u32)0x00000004)
+STM32F10x_FWLib\src\stm32f10x_systick.h:           ^
+STM32F10x_FWLib\src\stm32f10x_systick.h: STM32F10x_FWLib\src\stm32f10x_systick.c: 1 warning, 0 errors
+compiling stm32f10x_adc.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_bkp.c...
+compiling system_stm32f10x.c...
+compiling misc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_usart.c...
+compiling my_test.c...
+ucos_ii\my_test\my_test.c(7): warning:  #177-D: variable "pcb1" was declared but never referenced
+ucos_ii\my_test\my_test.c:      OS_TCB *pcb1;
+ucos_ii\my_test\my_test.c:              ^
+ucos_ii\my_test\my_test.c(14): warning:  #1-D: last line of file ends without a newline
+ucos_ii\my_test\my_test.c:   }
+ucos_ii\my_test\my_test.c:    ^
+ucos_ii\my_test\my_test.c(13): warning:  #177-D: variable "pcb2" was declared but never referenced
+ucos_ii\my_test\my_test.c:      OS_TCB *pcb2;
+ucos_ii\my_test\my_test.c:              ^
+ucos_ii\my_test\my_test.c: ucos_ii\my_test\my_test.c: 3 warnings, 0 errors
+assembling os_cpu_a.asm...
+linking...
+Program Size: Code=27058 RO-data=1742 RW-data=2220 ZI-data=14572  
+".\obj\san_wei.axf" - 0 Error(s), 171 Warning(s).

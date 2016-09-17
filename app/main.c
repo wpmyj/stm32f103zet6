@@ -52,7 +52,7 @@ int main()
 	test_NSS();
 	testClockInit() ;
 	usart4Init(9600);
-	UART4->CR1 |= 1 << 8;//	PEIE
+	UART4->CR1  |= 1 << 8;//	PEIE
   g_stVlue.pUsartBuffer = g_stVlue.tabUsartValue;
 	AD7545_Init();
 	PGA204Init();
