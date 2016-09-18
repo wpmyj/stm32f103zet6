@@ -78,8 +78,7 @@ typedef struct
  {
  	  u8  tem1;
 	  u8  ubUsartCount;
-	  u8  ubUsart4Event;
-	 
+	  u8  ubUsart4Event;	 
 	  u8  tabUsartValue[UART4BuferSize];	 
 	  u16  ad7606Count;    
 	  u16 uitem1; 
@@ -94,10 +93,7 @@ typedef struct
 	  float fADValue5;
 	  float fADValue6;
 	  float fADValue7;
-	  float fADValue4Compensation  ;
-
-	  
-	 
+	  float fADValue4Compensation  ; 
 	  //TMailBox * tMailBox;
 
  }ST_Value;

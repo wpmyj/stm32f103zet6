@@ -17,6 +17,10 @@
 
  ST_Value g_stVlue;
  char TabString	[10] = {0} ;
+ void k_0918(void)
+ {
+
+}
  
 void sysclk_int(void)
  {
