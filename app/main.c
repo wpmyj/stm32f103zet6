@@ -76,14 +76,7 @@ int main()
 		
 	delay(60000);
 	delay(60000);
-	setDC_Value(1000);
-	setDC_Value(1500);
- 	setDC_Value(2000);
-	setDC_Value(2500);
-	setDC_Value(3000);	
-	setDC_Value(4000);
-  setDC_Value(5000);	
-	setDC_Value(6200);
+
 	setDC_Value(0);
 	AD7606_Handle(); 
 	test_gui();

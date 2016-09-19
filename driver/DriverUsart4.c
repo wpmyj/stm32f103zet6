@@ -196,7 +196,8 @@ void UART4_IRQHandler (void)  //UART4_IRQHandler IMPORT  UART4_IRQHandler
 			g_stVlue.ubUsartCount++;
 			if(g_stVlue.pUsartBuffer < g_stVlue.pUsartBuffer + UART4BuferSize)
 			{
-				*g_stVlue.pUsartBuffer++ = UART4->DR;
+				*g_stVlue.pUsartBuffer = UART4->DR;
+				 g_stVlue.pUsartBuffer ++;
 			}
 			else
 			{

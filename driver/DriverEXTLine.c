@@ -117,7 +117,7 @@ void EXTI9_5_IRQHandler(void)
 	if(EXTI_GetFlagStatus(EXTI_Line7))
 	{ 
 		EXTI_ClearITPendingBit(EXTI_Line7);  //清除LINE2上的中断标志位 
-		setDC_Value(0);
+		//setDC_Value(0);
 	}
 	
 	if(EXTI_GetFlagStatus(EXTI_Line8))
